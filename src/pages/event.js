@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import Footer from './api/components/Footer';
-function event() {
+function Event() {
 	const [visible, setVisible] = React.useState(false);
 	const handler = () => setVisible(true);
 
@@ -860,4 +860,4 @@ function event() {
 	)
 }
 
-export default event
+export default Event
