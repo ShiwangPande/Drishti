@@ -218,6 +218,36 @@ function Footer() {
                         width: 200px;
                         margin: 2rem auto;
                  }
+                  
+        @media (max-width: 500px){
+            .map{
+                width: 280px;
+                height: 165px;
+                border-radius: 15px;
+             }
+             .footer-section a, .footer-section span{
+                font-size: 1rem;
+                color: #fff;
+             }
+             footer{
+                font-family: 'Russo One', sans-serif;
+                font-size: 1rem;
+                height: 110vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+             }
+             .footer-section{
+                    display: flex;  
+                    flex-direction: column;
+                    align-items: center;
+             }
+             .logos{
+                width: 200px;
+                margin: 0rem auto;
+         }
+            }
                 `}</style></div>
         </>
 
