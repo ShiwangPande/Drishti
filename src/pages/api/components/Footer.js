@@ -238,6 +238,11 @@ function Footer() {
                 align-items: center;
 
              }
+             .footer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+             }
              .footer-section{
                     display: flex;  
                     flex-direction: column;
