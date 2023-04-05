@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
-import Footer from './Footer';
+import Footer from './api/components/Footer';
 function event() {
 	const [visible, setVisible] = React.useState(false);
 	const handler = () => setVisible(true);

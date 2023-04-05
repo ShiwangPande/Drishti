@@ -6,64 +6,64 @@ import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import Footer from './Footer';
 
 function About() {
-    return (
-        <div> <div className='body1'>
-            <Head>
-                <title>Next.js + Tailwind CSS</title>
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+	return (
+		<div> <div className='body1'>
+			<Head>
+				<title>Next.js + Tailwind CSS</title>
+				<link rel="icon" href="/favicon.ico" />
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-            </Head>
+			</Head>
 
-            <nav class="navbar">
-                <div class="navbar-container container">
-                    <input type="checkbox" name="" id="" />
-                    <div class="hamburger-lines">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
-                    </div>
-                    <ul class="menu-items">
-                        <li>
-                            <a className='btn btn-ghost' href="/">Home</a></li>
-                        <li>
-                            <a className='btn btn-ghost' href="/event">
-                                Event</a></li>
-                        <li><a className='btn btn-ghost' href="#">Gallery</a></li>
-                        <li><a className='btn btn-ghost' href="#">Team</a></li>
-                        <li><a className='btn btn-ghost' href="#">Contact Us</a></li>
-                    </ul>
-                    <h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1>
-                </div>
-            </nav>
+			<nav class="navbar">
+				<div class="navbar-container container">
+					<input type="checkbox" name="" id="" />
+					<div class="hamburger-lines">
+						<span class="line line1"></span>
+						<span class="line line2"></span>
+						<span class="line line3"></span>
+					</div>
+					<ul class="menu-items">
+						<li>
+							<a className='btn btn-ghost' href="/">Home</a></li>
+						<li>
+							<a className='btn btn-ghost' href="/event">
+								Event</a></li>
+						<li><a className='btn btn-ghost' href="#">Gallery</a></li>
+						<li><a className='btn btn-ghost' href="#">Team</a></li>
+						<li><a className='btn btn-ghost' href="#">Contact Us</a></li>
+					</ul>
+					<h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1>
+				</div>
+			</nav>
 
-            <div className="container mx-auto">
-                <div className="flex flex-col items-center justify-center min-h-screen py-2">
-                    <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-                        <div className="my-20" id='about'>
-                            <h1 className="text-6xl font-bold mb-5 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/QWJvdXQ/race-sport.png" alt="" /> </h1>
-                            <div className="max-w-md w-full lg:max-w-full lg:flex border-0 my-10 aboutt ">
-                                <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
-                                </div>
-                                <div className="  border-0 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
-                                    <div className="mb-8">
+			<div className="container mx-auto">
+				<div className="flex flex-col items-center justify-center min-h-screen py-2">
+					<main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+						<div className="my-20" id='about'>
+							<h1 className="text-6xl font-bold mb-5 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/QWJvdXQ/race-sport.png" alt="" /> </h1>
+							<div className="max-w-md w-full lg:max-w-full lg:flex border-0 my-10 aboutt ">
+								<div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
+								</div>
+								<div className="  border-0 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
+									<div className="mb-8">
 
-                                        <p className="text-gray-700 text-base ">Drishti is a mechanical fest organized by Government College of Engineering Nagpur, which was first held in 2020 in online mode due to the COVID-19 pandemic. However, the fest was not organized in 2021 and 2022.
+										<p className="text-gray-700 text-base ">Drishti is a mechanical fest organized by Government College of Engineering Nagpur, which was first held in 2020 in online mode due to the COVID-19 pandemic. However, the fest was not organized in 2021 and 2022.
 
-                                            Now, in 2023, Drishti is set to make a comeback in offline mode at the Government College of Engineering Nagpur. The fest promises to be a platform for mechanical enthusiasts to showcase their skills and knowledge through various events and competitions. It will provide an opportunity for participants to interact with industry experts and gain valuable insights into the field of mechanical engineering.</p>
+											Now, in 2023, Drishti is set to make a comeback in offline mode at the Government College of Engineering Nagpur. The fest promises to be a platform for mechanical enthusiasts to showcase their skills and knowledge through various events and competitions. It will provide an opportunity for participants to interact with industry experts and gain valuable insights into the field of mechanical engineering.</p>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
-                </div>
-            </div>
-            <Footer />
-        </div>
-            <style jsx global > {`
+									</div>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>
+			<Footer />
+		</div>
+			<style jsx global > {`
 			    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Russo+One&display=swap');
 				#event{
 			   font-family: 'Poppins', sans-serif;
@@ -444,8 +444,8 @@ function About() {
 								display: none;
 							}
 						}`}</style>
-        </div>
-    )
+		</div>
+	)
 }
 
 export default About

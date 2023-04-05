@@ -10,7 +10,7 @@ import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import { Grid } from "@nextui-org/react";
-import Footer from './Footer'
+import Footer from './api/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] });
 
