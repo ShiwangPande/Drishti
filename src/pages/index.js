@@ -168,7 +168,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">BlindFold</h1>
                       <p className="mt-2 text-gray-600 my-2">Can you see the challenge without sight? Test your senses with BlindFold.</p>
-                      <Button auto shadow onPress={handler} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler} ClassName="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
 
