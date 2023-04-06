@@ -171,9 +171,6 @@ export default function Home() {
                       <Button auto shadow onPress={handler} ClassName="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
-
-
-
                       <div>
                         <Modal
                           closeButton
@@ -212,7 +209,7 @@ export default function Home() {
                                 <Button auto flat >
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/KSlyhqh'>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
                                     Register [&#8377;50]
                                   </Button></Link>
@@ -276,7 +273,7 @@ export default function Home() {
                                 <Button auto flat >
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/KSlyhqh'>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
                                     Register [&#8377;50]
                                   </Button></Link>
@@ -339,7 +336,7 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/KSlyhqh'>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
                                     Register [&#8377;50]
                                   </Button></Link>
@@ -402,7 +399,7 @@ export default function Home() {
                                 <Button auto flat >
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/KSlyhqh'>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
                                     Register [&#8377;50]
                                   </Button></Link>
@@ -466,7 +463,7 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/KSlyhqh'>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
                                     Register [&#8377;50]
                                   </Button></Link>
@@ -529,7 +526,7 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/KSlyhqh'>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
                                     Register [&#8377;50]
                                   </Button></Link>

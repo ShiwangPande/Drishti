@@ -136,7 +136,7 @@ function Event() {
 																<Button auto flat >
 																	learn more
 																</Button>
-																<Link href='https://rzp.io/l/KSlyhqh'>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
 																		Register [&#8377;50]
 																	</Button></Link>
@@ -200,7 +200,7 @@ function Event() {
 																<Button auto flat >
 																	learn more
 																</Button>
-																<Link href='https://rzp.io/l/KSlyhqh'>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
 																		Register [&#8377;50]
 																	</Button></Link>
@@ -263,7 +263,7 @@ function Event() {
 																<Button auto flat>
 																	learn more
 																</Button>
-																<Link href='https://rzp.io/l/KSlyhqh'>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
 																		Register [&#8377;50]
 																	</Button></Link>
@@ -326,7 +326,7 @@ function Event() {
 																<Button auto flat >
 																	learn more
 																</Button>
-																<Link href='https://rzp.io/l/KSlyhqh'>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
 																		Register [&#8377;50]
 																	</Button></Link>
@@ -390,7 +390,7 @@ function Event() {
 																<Button auto flat>
 																	learn more
 																</Button>
-																<Link href='https://rzp.io/l/KSlyhqh'>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
 																		Register [&#8377;50]
 																	</Button></Link>
@@ -453,7 +453,7 @@ function Event() {
 																<Button auto flat>
 																	learn more
 																</Button>
-																<Link href='https://rzp.io/l/KSlyhqh'>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
 																		Register [&#8377;50]
 																	</Button></Link>
