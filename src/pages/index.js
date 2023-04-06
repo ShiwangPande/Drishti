@@ -947,7 +947,7 @@ ul li a{
                 height: 4px;
                 width: 100%;
                 border-radius: 10px;
-                background: #333;
+                background: #fff;
             }
             
             .navbar-container .hamburger-lines .line1{
