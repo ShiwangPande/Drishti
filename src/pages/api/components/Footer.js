@@ -46,7 +46,7 @@ function Footer() {
                         </div>
                         <div className='footer-section'>
                             <span className="footer-title">Legal</span>
-                            <Button className=" btn btn-ghost" onPress={handler1}>
+                            <Button className=" btn btn-ghost" >
                                 <a href="/TermsCondition">
                                     Terms & Conditions</a>
                             </Button>
