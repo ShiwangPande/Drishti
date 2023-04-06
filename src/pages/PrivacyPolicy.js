@@ -3,7 +3,7 @@ import React from 'react'
 function PrivacyPolicy() {
   return (
 
-    <div className='container max-w-screen-md m-auto'>
+    <div className='container max-w-screen-md m-auto bg-blue-950 text-white'>
       <h1>Privacy Policy</h1>
       <p>We take your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.</p>
       <h1>Collection of Routine Information</h1>
