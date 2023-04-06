@@ -2,9 +2,9 @@ import React from 'react'
 
 function PrivacyPolicy() {
   return (
-    <div className='  bg-blue-950 text-white'>
-      <div className='container max-w-screen-md m-auto'>
-        <h1>Privacy Policy</h1>
+    <div className='m-0 p-0 bg-blue-950 text-white'>
+      <div className='  container max-w-screen-md m-auto'>
+        <h1 className='my-10'>Privacy Policy</h1>
         <p>We take your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.</p>
         <h1>Collection of Routine Information</h1>
         <p>This website tracks basic information about their users. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific users to this website. The information is tracked for routine administration and maintenance purposes.
