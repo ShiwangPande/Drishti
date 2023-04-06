@@ -22,7 +22,7 @@ export default function Home() {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
 
-      gsap.to(".box", { rotation: 0, y: 60, duration: 1 });
+      gsap.to(".box", { rotation: 0, y: 210, duration: 2 });
     }, root);
 
     return () => ctx.revert();
@@ -1033,6 +1033,12 @@ ul li a{
           width: 112px;
           position: relative;
           bottom: -15px;
+        }
+        .glow{
+          font-size: 4.8rem;
+        }
+        .glow-shadow{
+          transform: translatey(-24%)rotatex(22deg)scaley(-1)translatey(-17%)scaley(1.4);
         }
         }
       `}</style >
