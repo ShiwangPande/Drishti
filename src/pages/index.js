@@ -120,7 +120,7 @@ export default function Home() {
               <li><a className='btn btn-ghost' href="/event">Event</a>  </li>
               <li><a className='btn btn-ghost' href="#">Gallery</a>     </li>
               <li><a className='btn btn-ghost' href="/Team">Team</a>    </li>
-              <li><a className='btn btn-ghost' href="#">Contact Us</a>  </li>
+              <li><a className='btn btn-ghost' href="/Contactus">Contact Us</a>  </li>
             </ul>
             <h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1>
           </div>
