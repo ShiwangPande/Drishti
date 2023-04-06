@@ -232,7 +232,7 @@ function Footer() {
              footer{
                 font-family: 'Russo One', sans-serif;
                 font-size: 1rem;
-                height: 120vh;
+                height: 150vh;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
