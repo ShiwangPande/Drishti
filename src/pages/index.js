@@ -22,7 +22,7 @@ export default function Home() {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
 
-      gsap.to(".box", { rotation: 0, y: 210, duration: 2 });
+      gsap.to(".box", { rotation: 0, y: 250, duration: 2 });
     }, root);
 
     return () => ctx.revert();
@@ -875,8 +875,10 @@ ul li a{
         
         @media (max-width: 768px){
           .box {
-            width: 200px;
-            height: 200px;
+           
+    width: 250px;
+    height: 300px;
+
             display: flex;
             align-items: center;
             justify-content: center;
