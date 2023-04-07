@@ -29,7 +29,7 @@ function About() {
 						<li>
 							<a className='btn btn-ghost' href="/">Home</a></li>
 						<li>
-							<a className='btn btn-ghost' href="/Event">
+							<a className='btn btn-ghost' href="/event">
 								Event</a></li>
 						{/* <li><a className='btn btn-ghost' href="#">Gallery</a></li> */}
 						<li><a className='btn btn-ghost' href="/Team">Team</a></li>
