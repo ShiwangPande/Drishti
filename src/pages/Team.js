@@ -161,6 +161,7 @@ body {
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
+     backgourd: transparent;
 }
 .honeycomb-cell::before, .honeycomb-cell::after {
   content: "";
