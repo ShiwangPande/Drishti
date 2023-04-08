@@ -90,7 +90,7 @@ function Event() {
 									<div className="bg-white shadow-md rounded-lg overflow-hidden">
 										<div className="bg-cover h-56 p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">BlindFold</h1>
+											<h1 className="text-xl font-bold text-gray-700">Mysterious Manshion</h1>
 											<p className="mt-2 text-gray-600 my-2">Can you see the challenge without sight? Test your senses with BlindFold.</p>
 											<Button auto shadow onPress={handler} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
 												Explore
@@ -138,7 +138,11 @@ function Event() {
 																</Button>
 																<Link href='https://rzp.io/l/7ocYriQzlv'>
 																	<Button auto >
-																		Register [&#8377;50]
+																		Register For Team of 5 [&#8377;350/-]
+																	</Button></Link>
+																<Link href='https://rzp.io/l/7ocYriQzlv'>
+																	<Button auto >
+																		Register For Team of 4 [&#8377;300/-]
 																	</Button></Link>
 
 															</Modal.Footer>
