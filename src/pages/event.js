@@ -123,7 +123,7 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 13ᵗʰ Nov 2022</h1> <br />
+																	<h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
 
 																	<p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -184,7 +184,7 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 13ᵗʰ Nov 2022</h1> <br />
+																	<h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
 
 																	<p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -247,7 +247,7 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 13ᵗʰ Nov 2022</h1> <br />
+																	<h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
 
 																	<p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -314,7 +314,7 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 13ᵗʰ Nov 2022</h1> <br />
+																	<h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
 
 																	<p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -378,7 +378,7 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 13ᵗʰ Nov 2022</h1> <br />
+																	<h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
 
 																	<p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
