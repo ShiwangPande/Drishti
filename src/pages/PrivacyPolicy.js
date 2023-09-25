@@ -54,22 +54,22 @@ function PrivacyPolicy() {
         </p>
         <h1>Shipping and delivery Policy</h1>
         <p>  We do not ship any products. All the events are online and the participants are required to attend the events online. for more info, visit <a href="https://merchant.razorpay.com/policy/MgRXpJ5bQNZinB/shipping ">learn more</a>
+        </p>
+        <h1> Acceptance of Policy</h1>
+        <p> By registering for an event on the Drishti website, you acknowledge that you have read, understood, and accepted our no-refund and no-cancellation policy.
+        </p>
 
-          <h1> Acceptance of Policy</h1>
-          <p> By registering for an event on the Drishti website, you acknowledge that you have read, understood, and accepted our no-refund and no-cancellation policy.
-          </p>
+        <p> We appreciate your understanding and commitment to making Drishti a successful and memorable experience for all participants.
+        </p>
+        <p>  Thank you for your support!</p>
 
-          <p> We appreciate your understanding and commitment to making Drishti a successful and memorable experience for all participants.
-          </p>
-          <p>  Thank you for your support!</p>
+        <h1>Changes To This Privacy Policy</h1>
+        <p>This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.
+        </p>
 
-          <h1>Changes To This Privacy Policy</h1>
-          <p>This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.
-          </p>
-
-          <h1>Contact Information</h1>
-          For any questions or concerns regarding the privacy policy, please send us an email to gcoenmesa@gmail.com or contact us at +91 8459795840.
-          Drishti 2023 | MESA | GCOEN
+        <h1>Contact Information</h1>
+        For any questions or concerns regarding the privacy policy, please send us an email to gcoenmesa@gmail.com or contact us at +91 8459795840.
+        Drishti 2023 | MESA | GCOEN
       </div>
       <style jsx>{`
         h1 {
