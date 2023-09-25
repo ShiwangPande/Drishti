@@ -29,6 +29,8 @@ function PrivacyPolicy() {
         <p>The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security. </p>
         <h1> Registration Fees</h1>
         <p>Registration fees for Drishti events are non-refundable.</p>
+        <h1>Payment Currency</h1>
+        <p> We accept payment for registration fees exclusively in Indian Rupees (INR). Please ensure that all payments are made in INR to complete the registration process. We do not accept any other currency for registration fees. If you have any questions or concerns regarding payment methods, please contact our customer support team for assistance.</p>
 
         <h1>Event Registration</h1>
 
@@ -40,7 +42,7 @@ function PrivacyPolicy() {
           If there are changes to the schedule or format of an event due to unavoidable reasons, registered participants will be informed, and alternative arrangements will be made.
         </p>
         <h1>Contact Us</h1>
-        <p> If you have any questions or concerns regarding this policy or your registration, please feel free to contact our team at [Contact Email Address] or [Contact Phone Number].
+        <p> If you have any questions or concerns regarding this policy or your registration, please feel free to contact our team at [gcoenmesa@gmail.com] or [+91 8459795840].
         </p>
 
         <h1> Acceptance of Policy</h1>
@@ -56,7 +58,7 @@ function PrivacyPolicy() {
         </p>
 
         <h1>Contact Information</h1>
-        For any questions or concerns regarding the privacy policy, please send us an email to gcoenmesa@gmail.com.
+        For any questions or concerns regarding the privacy policy, please send us an email to gcoenmesa@gmail.com or contact us at +91 8459795840.
         Drishti 2023 | MESA | GCOEN
       </div>
       <style jsx>{`
