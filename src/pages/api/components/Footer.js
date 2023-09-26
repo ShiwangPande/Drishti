@@ -45,7 +45,7 @@ function Footer() {
                         <div className='footer-section'>
                             <span className="footer-title">Information</span>
                             <a href='/event' className=" btn btn-ghost">Events</a>
-                            <a href='https://www.gcoen.ac.in/' className=" btn btn-ghost">Our College</a>
+                            {/* <a href='https://www.gcoen.ac.in/' className=" btn btn-ghost">Our College</a> */}
                             <a href='/About' className=" btn btn-ghost">About us</a>
                         </div>
                         <div className='footer-section'>
@@ -67,10 +67,10 @@ function Footer() {
 
                                     <img className='w-100 ' style={{ width: "50px" }} src="https://i.ibb.co/9pwKpng/linkedin-1.png" alt="" />
                                 </a>
-                                <a href="https://www.mesagcoen.org/">
+                                {/* <a href="https://www.mesagcoen.org/"> */}
 
-                                    <img className='w-100 ' style={{ width: "50px" }} src="https://i.ibb.co/bJHqt7w/web.png" alt="" />
-                                </a>
+                                {/* <img className='w-100 ' style={{ width: "50px" }} src="https://i.ibb.co/bJHqt7w/web.png" alt="" /> */}
+                                {/* </a> */}
                             </div>
                             {/* </div> */}
 

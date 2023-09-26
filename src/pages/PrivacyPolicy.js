@@ -50,7 +50,7 @@ function PrivacyPolicy() {
           If you have any questions or need further clarification regarding our pricing, refund, or cancellation policies, please feel free to contact our event organizers. We look forward to providing an exciting and enriching experience at the Drishti Mechanical Tech Fest, and we appreciate your understanding of our policies to help us deliver a successful event.
         </p>
         <h1>Contact Us</h1>
-        <p> If you have any questions or concerns regarding this policy or your registration, please feel free to contact our team at [gcoenmesa@gmail.com] or [+91 8459795840].
+        <p> If you have any questions or concerns regarding this policy or your registration, please feel free to contact our team at gcoenmesa@gmail.com or Shiwang Pandey - +91 8459795840, our operation address: Government College of engineering, Nagpur, New Khapri, Maharashtra 441108.
         </p>
         <h1>Shipping and delivery Policy</h1>
         <p>  We do not ship any products. All the events are online and the participants are required to attend the events online. for more info, visit <a href="https://merchant.razorpay.com/policy/MgRXpJ5bQNZinB/shipping ">learn more</a>
@@ -86,9 +86,6 @@ function PrivacyPolicy() {
         li {
           margin: 0.5rem 0;
         }
-
-        
-
       `}</style>
     </div>
 

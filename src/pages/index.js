@@ -166,8 +166,8 @@ export default function Home() {
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="bg-cover h-56 p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Mysterious Manshion</h1>
-                      <p className="mt-2 text-gray-600 my-2">"Unlock the secrets within the walls of Mysterious Mansion."</p>
+                      <h1 className="text-xl font-bold text-gray-700">Incadibles</h1>
+                      <p className="mt-2 text-gray-600 my-2"></p>
                       <Button auto shadow onPress={handler} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -194,12 +194,12 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Mysterious Manshion
+                                  Incadibles
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 3 Nov 2023</h1> <br />
 
                                   <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -211,12 +211,9 @@ export default function Home() {
                                 </Button>
                                 <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
-                                    Register For Team of 5 [&#8377;350/-]
+                                    Register  [&#8377;60/-]
                                   </Button></Link>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
-                                  <Button auto >
-                                    Register For Team of 4 [&#8377;300/-]
-                                  </Button></Link>
+
                               </Modal.Footer>
                             </div>
                           </div>
@@ -227,8 +224,8 @@ export default function Home() {
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Chess Championship</h1>
-                      <p className="mt-2 text-gray-600 my-2">"Checkmate your limits at the Chess Championship."</p>
+                      <h1 className="text-xl font-bold text-gray-700">Virtual Placements </h1>
+                      <p className="mt-2 text-gray-600 my-2">"  "</p>
                       <Button auto shadow onPress={handler1} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -255,12 +252,12 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Chess Championship
+                                  Virtual Placements
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 3ᵗʰ Nov 2023</h1> <br />
 
                                   <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -287,8 +284,8 @@ export default function Home() {
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Incadebles</h1>
-                      <p className="mt-2 text-gray-600 my-2">"Unleash the Incredible within"</p>
+                      <h1 className="text-xl font-bold text-gray-700">Ai workshop</h1>
+                      <p className="mt-2 text-gray-600 my-2"></p>
                       <Button auto shadow onPress={handler2} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -318,12 +315,12 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Incadebles
+                                  Ai workshop
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
                                   <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -335,12 +332,9 @@ export default function Home() {
                                 </Button>
                                 <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
-                                    Register [&#8377;70](solo)
+                                    Register [&#8377;30](solo)
                                   </Button></Link>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
-                                  <Button auto >
-                                    Register [&#8377;100](Duo)
-                                  </Button></Link>
+
 
                               </Modal.Footer>
                             </div>
@@ -354,8 +348,8 @@ export default function Home() {
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Tech Tac Toe</h1>
-                      <p className="mt-2 text-gray-600 my-2">"Play the ultimate game of strategy and skill with Tech Tac Toe."</p>
+                      <h1 className="text-xl font-bold text-gray-700">Robocon Competition</h1>
+                      <p className="mt-2 text-gray-600 my-2">""</p>
                       <Button auto shadow onPress={handler3} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -385,12 +379,12 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Tech Tac Toe
+                                  Robocon Competition
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
                                   <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
 
@@ -402,7 +396,7 @@ export default function Home() {
                                 </Button>
                                 <Link href='https://rzp.io/l/7ocYriQzlv'>
                                   <Button auto >
-                                    Register [&#8377;60]
+                                    Register [&#8377;70]
                                   </Button></Link>
 
                               </Modal.Footer>
@@ -417,8 +411,8 @@ export default function Home() {
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Internet Insiders</h1>
-                      <p className="mt-2 text-gray-600 my-2">"Uncovering the secrets of the digital world, one byte at a time - join the Internet Insiders today!"</p>
+                      <h1 className="text-xl font-bold text-gray-700">Chess</h1>
+                      <p className="mt-2 text-gray-600 my-2"></p>
                       <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -449,14 +443,14 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Internet Insiders
+                                  chess
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 25ᵗʰ April 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
+                                  <p className='font-semibold'></p>
 
                                 </Text>
                               </Modal.Body>
@@ -469,6 +463,204 @@ export default function Home() {
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
 
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
+                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="p-4 card_content">
+                      <h1 className="text-xl font-bold text-gray-700">treasure hunt</h1>
+                      <p className="mt-2 text-gray-600 my-2"></p>
+                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                        Explore
+                      </Button>
+
+
+
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width="800px"
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible4}
+                          onClose={closeHandler4}
+
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                              width={1000}
+                              height={490}
+
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  treasure hunt
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+
+                                  <p className='font-semibold'></p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Button auto flat>
+                                  learn more
+                                </Button>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                  <Button auto >
+                                    Register (Duo) [&#8377;60]
+                                  </Button></Link>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                  <Button auto >
+                                    Register (Team) [&#8377;120]
+                                  </Button></Link>
+
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
+                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="p-4 card_content">
+                      <h1 className="text-xl font-bold text-gray-700">Slow Football</h1>
+                      <p className="mt-2 text-gray-600 my-2"></p>
+                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                        Explore
+                      </Button>
+
+
+
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width="800px"
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible4}
+                          onClose={closeHandler4}
+
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                              width={1000}
+                              height={490}
+
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Slow Football
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+
+                                  <p className='font-semibold'></p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Button auto flat>
+                                  learn more
+                                </Button>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                  <Button auto >
+                                    Register (Team) [&#8377;250]
+                                  </Button></Link>
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
+                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="p-4 card_content">
+                      <h1 className="text-xl font-bold text-gray-700">Webies</h1>
+                      <p className="mt-2 text-gray-600 my-2"></p>
+                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                        Explore
+                      </Button>
+
+
+
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width="800px"
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible4}
+                          onClose={closeHandler4}
+
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                              width={1000}
+                              height={490}
+
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Webies
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+
+                                  <p className='font-semibold'></p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Button auto flat>
+                                  learn more
+                                </Button>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                  <Button auto >
+                                    Register (Single) [&#8377;70]
+                                  </Button></Link>
+                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                  <Button auto >
+                                    Register (Duo) [&#8377;100]
+                                  </Button></Link>
                               </Modal.Footer>
                             </div>
                           </div>
