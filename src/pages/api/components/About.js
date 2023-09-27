@@ -180,10 +180,10 @@ function About() {
 	   }   
 	   
 	   
-			   .about_img{
-				 background-image: url('https://i.postimg.cc/W1W6kt5W/Dirshiti-final-logo.png');
+			//    .about_img{
+			// 	 background-image: url('https://i.postimg.cc/W1W6kt5W/Dirshiti-final-logo.png');
 				 
-			   }
+			//    }
 	   .drishti{
 		 color:white;
 	   }

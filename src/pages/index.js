@@ -672,7 +672,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* 
+
               <div className="my-20" id='sponsor'>
                 <h1 className="text-6xl font-bold mb-5 text-white"> <img className='spons' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/c3BvbnNvcnM/race-sport.png" alt="" /> </h1>
                 <div className="grid grid-cols-3 gap-20 sponss">
@@ -708,7 +708,7 @@ export default function Home() {
                   </div>
                 </div>
 
-              </div> */}
+              </div>
             </main>
           </div>
         </div >
@@ -827,10 +827,10 @@ ul li a{
 }   
 
 
-        .about_img{
-          background-image: url('https://i.postimg.cc/W1W6kt5W/Dirshiti-final-logo.png)
+        // .about_img{
+        //   background-image: url('https://img.freepik.com/free-photo/close-up-recording-video-with-smartphone-during-concert_1153-7310.jpg?w=996&t=st=1680473772~exp=1680474372~hmac=7934c62f3f2399fdb0cff4954cb7e46ccd4e4dd702b74b54647040143c911583"')
           
-        }
+        // }
 .drishti{
   color:white;
 }
