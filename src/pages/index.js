@@ -183,14 +183,14 @@ export default function Home() {
                           onClose={closeHandler}
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -201,7 +201,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3 Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
+                                  <p className='font-semibold'>Step into a world of extraordinary powers, family bonds, and thrilling adventures as we bring you "The Incredibles Event" – an unforgettable celebration of the beloved Pixar superhero family!.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -209,7 +209,7 @@ export default function Home() {
                                 <Button auto flat >
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register  [&#8377;60/-]
                                   </Button></Link>
@@ -241,14 +241,14 @@ export default function Home() {
                           onClose={closeHandler1}
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -259,7 +259,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3ᵗʰ Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
+                                  <p className='font-semibold'>Are you ready to embark on a transformative journey that bridges the gap between education and real-world experience? Welcome to the Virtual Placements Showcase, an innovative event designed to connect students, educators, and employers in a dynamic online environment.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -267,7 +267,7 @@ export default function Home() {
                                 <Button auto flat >
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register [&#8377;60]</Button>
                                 </Link>
@@ -304,14 +304,14 @@ export default function Home() {
                           onClose={closeHandler2}
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -322,7 +322,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
+                                  <p className='font-semibold'>Join us for a transformative experience at our AI Workshop event, where you'll delve into the fascinating world of Artificial Intelligence (AI). Whether you're a beginner or an AI enthusiast looking to expand your knowledge, this workshop is designed to provide you with practical insights, hands-on experience, and a deeper understanding of AI's limitless possibilities.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -330,7 +330,7 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register [&#8377;30](solo)
                                   </Button></Link>
@@ -349,7 +349,7 @@ export default function Home() {
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Robocon Competition</h1>
-                      <p className="mt-2 text-gray-600 my-2">""</p>
+                      <p className="mt-2 text-gray-600 my-2">"The Robocon Competition is a thrilling and highly anticipated event that showcases the cutting-edge technology, engineering prowess, and creative innovation of teams from around the world. This annual robotics competition brings together passionate robotics enthusiasts, engineers, and students who design and build robots to compete in a challenging and exciting series of games."</p>
                       <Button auto shadow onPress={handler3} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -368,14 +368,14 @@ export default function Home() {
                           onClose={closeHandler3}
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -432,14 +432,14 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -450,7 +450,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'></p>
+                                  <p className='font-semibold'>Step into the world of strategy, intellect, and competition as we present "Grandmasters Clash: The Ultimate Chess Spectacle." This extraordinary chess event promises to be a celebration of the timeless game that has enthralled minds for centuries. Whether you're a seasoned chess aficionado or a novice eager to witness the brilliance of the world's finest chess players, this event is tailored to captivate and inspire.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -458,7 +458,7 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
@@ -496,14 +496,14 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -514,7 +514,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'></p>
+                                  <p className='font-semibold'>Get ready for an adventure of a lifetime as we invite you to join us for the most exciting and thrilling event of the year - the "X Marks the Spot: Treasure Hunt Extravaganza"! This treasure hunt promises an unforgettable experience that will test your wits, teamwork, and exploration skills while uncovering hidden treasures and solving intriguing mysteries.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -522,11 +522,11 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register (Duo) [&#8377;60]
                                   </Button></Link>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register (Team) [&#8377;120]
                                   </Button></Link>
@@ -564,14 +564,14 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -582,7 +582,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'></p>
+                                  <p className='font-semibold'>Step onto the pitch and prepare to experience the beautiful game in a whole new light at our "Slo-Mo Soccer Spectacle" event. Slow Football, as we affectionately call it, is an extraordinary twist on the world's most popular sport that will leave you both mesmerized and utterly delighted.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -590,7 +590,7 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register (Team) [&#8377;250]
                                   </Button></Link>
@@ -627,14 +627,14 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            <Image
+                            {/* <Image
                               showSkeleton
                               src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                               width={1000}
                               height={490}
 
 
-                            />
+                            /> */}
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -645,7 +645,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'></p>
+                                  <p className='font-semibold'>Webies is an annual celebration of the digital world that brings together the brightest minds, innovators, and enthusiasts from the vast landscape of the internet. This captivating event serves as a nexus where technology, creativity, and the digital community converge to explore, learn, and celebrate the ever-evolving web ecosystem.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -653,11 +653,11 @@ export default function Home() {
                                 <Button auto flat>
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
