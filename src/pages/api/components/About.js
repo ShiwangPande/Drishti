@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import Footer from './Footer';
-
+// import logo from "./drishtilogo.png";
 function About() {
 	return (
 		<div> <div className='body1'>
@@ -181,7 +181,7 @@ function About() {
 	   
 	   
 			   .about_img{
-				 background-image: url('https://img.freepik.com/free-photo/close-up-recording-video-with-smartphone-during-concert_1153-7310.jpg?w=996&t=st=1680473772~exp=1680474372~hmac=7934c62f3f2399fdb0cff4954cb7e46ccd4e4dd702b74b54647040143c911583"')
+				 background-image: url('https://i.postimg.cc/W1W6kt5W/Dirshiti-final-logo.png');
 				 
 			   }
 	   .drishti{
