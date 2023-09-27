@@ -672,7 +672,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
+{/* 
               <div className="my-20" id='sponsor'>
                 <h1 className="text-6xl font-bold mb-5 text-white"> <img className='spons' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/c3BvbnNvcnM/race-sport.png" alt="" /> </h1>
                 <div className="grid grid-cols-3 gap-20 sponss">
@@ -708,7 +708,7 @@ export default function Home() {
                   </div>
                 </div>
 
-              </div>
+              </div> */}
             </main>
           </div>
         </div >
