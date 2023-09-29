@@ -55,7 +55,7 @@ function Event() {
 		console.log("closed");
 	};
 	const [visible6, setVisible6] = React.useState(false);
-	const handler8 = () => setVisible5(true);
+	const handler6 = () => setVisible5(true);
 
 	const closeHandler6 = () => {
 		setVisible(false);
