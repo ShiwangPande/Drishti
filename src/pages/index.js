@@ -349,7 +349,7 @@ export default function Home() {
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Robocon Competition</h1>
-                      <p className="mt-2 text-gray-600 my-2">"The Robocon Competition is a thrilling and highly anticipated event that showcases the cutting-edge technology, engineering prowess, and creative innovation of teams from around the world. This annual robotics competition brings together passionate robotics enthusiasts, engineers, and students who design and build robots to compete in a challenging and exciting series of games."</p>
+                      <p className="mt-2 text-gray-600 my-2"></p>
                       <Button auto shadow onPress={handler3} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -386,7 +386,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>For the one's having a knack of exploring the visionary domain of Aeromodelling we've got a great talk awaiting for y'all! ✈ With us we'll be having Dr. Rajesh Joshi, the director of Aerovision India. Sir will be hosting a seminar on Aeromodelling.</p>
+                                  <p className='font-semibold'>"The Robocon Competition is a thrilling and highly anticipated event that showcases the cutting-edge technology, engineering prowess, and creative innovation of teams from around the world. This annual robotics competition brings together passionate robotics enthusiasts, engineers, and students who design and build robots to compete in a challenging and exciting series of games."</p>
 
                                 </Text>
                               </Modal.Body>
