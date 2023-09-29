@@ -88,6 +88,20 @@ export default function Home() {
     setVisible(false);
     console.log("closed");
   };
+  const [visible7, setVisible7] = React.useState(false);
+  const handler7 = () => setVisible5(true);
+
+  const closeHandler7 = () => {
+    setVisible(false);
+    console.log("closed");
+  };
+  const [visible6, setVisible6] = React.useState(false);
+  const handler8 = () => setVisible5(true);
+
+  const closeHandler6 = () => {
+    setVisible(false);
+    console.log("closed");
+  };
 
 
 
@@ -394,7 +408,7 @@ export default function Home() {
                                 <Button auto flat >
                                   learn more
                                 </Button>
-                                <Link href='https://rzp.io/l/7ocYriQzlv'>
+                                <Link href=''>
                                   <Button auto >
                                     Register [&#8377;70]
                                   </Button></Link>
@@ -477,7 +491,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">treasure hunt</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler5} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
 
@@ -491,8 +505,8 @@ export default function Home() {
                           width="800px"
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
-                          open={visible4}
-                          onClose={closeHandler4}
+                          open={visible5}
+                          onClose={closeHandler5}
 
                         >
                           <div className='event_modal'>
@@ -545,7 +559,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Slow Football</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler6} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
 
@@ -559,8 +573,8 @@ export default function Home() {
                           width="800px"
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
-                          open={visible4}
-                          onClose={closeHandler4}
+                          open={visible6}
+                          onClose={closeHandler6}
 
                         >
                           <div className='event_modal'>
@@ -608,7 +622,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Webies</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler7} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
 
@@ -622,8 +636,8 @@ export default function Home() {
                           width="800px"
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
-                          open={visible4}
-                          onClose={closeHandler4}
+                          open={visible7}
+                          onClose={closeHandler7}
 
                         >
                           <div className='event_modal'>
