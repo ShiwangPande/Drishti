@@ -37,30 +37,31 @@ function Event() {
 	const handler4 = () => setVisible4(true);
 
 	const closeHandler4 = () => {
-		setVisible(false);
+		setVisible4(false);
 		console.log("closed");
 	};
 	const [visible5, setVisible5] = React.useState(false);
 	const handler5 = () => setVisible5(true);
 
 	const closeHandler5 = () => {
-		setVisible(false);
-		console.log("closed");
-	};
-	const [visible7, setVisible7] = React.useState(false);
-	const handler7 = () => setVisible5(true);
-
-	const closeHandler7 = () => {
-		setVisible(false);
+		setVisible5(false);
 		console.log("closed");
 	};
 	const [visible6, setVisible6] = React.useState(false);
-	const handler6 = () => setVisible5(true);
+	const handler6 = () => setVisible6(true);
 
 	const closeHandler6 = () => {
-		setVisible(false);
+		setVisible6(false);
 		console.log("closed");
 	};
+	const [visible7, setVisible7] = React.useState(false);
+	const handler7 = () => setVisible7(true);
+
+	const closeHandler7 = () => {
+		setVisible7(false);
+		console.log("closed");
+	};
+
 
 
 	return (
