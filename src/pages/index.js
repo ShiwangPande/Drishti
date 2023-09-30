@@ -10,7 +10,7 @@ import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import { Grid } from "@nextui-org/react";
-import Footer from './api/components/Footer'
+import Footer from './api/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -97,7 +97,7 @@ export default function Home() {
   };
   const [visible7, setVisible7] = React.useState(false);
   const handler7 = () => setVisible7(true);
-  
+
   const closeHandler7 = () => {
     setVisible7(false);
     console.log("closed");
@@ -113,8 +113,8 @@ export default function Home() {
     } */}
       <div className='body1'>
         <Head>
-          <title>Drishti 2k23</title>
-          <link rel="icon" href="https://i.ibb.co/JyhW9p8/Untitled-design-9.png" />
+          <title>Drishti 2023 | MESA | GCOEN </title>
+          <link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -156,19 +156,21 @@ export default function Home() {
                   </div>
 
                 </div>
-                {/* <a href="https://ibb.co/6gLP95s"><img src="https://i.ibb.co/Hn3zwQg/asdfhj.png" alt="asdfhj" border="0"></a> */}
+                {/* <a href="https://ibb.co/6gLP95s"><img src={drishti} alt="asdfhj" border="0" /></a> */}
               </div>
               <div className="my-20" id='about'>
-                <h1 className="text-6xl font-bold mb-5 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/QWJvdXQ/race-sport.png" alt="" /> </h1>
+                <h1 className="text-6xl font-bold mb-8 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/QWJvdXQ/race-sport.png" alt="" /> </h1>
                 <div className="max-w-md w-full lg:max-w-full lg:flex border-0  aboutt ">
-                  <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
+                  <div className="h-48 lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
                   </div>
-                  <div className="  border-0 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
+                  <div className="  border-0 h- rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
                     <div className="mb-8">
 
-                      <p className="text-gray-700 text-base ">Drishti is a mechanical fest organized by Government College of Engineering Nagpur, which was first held in 2020 in online mode due to the COVID-19 pandemic. However, the fest was not organized in 2021 and 2022.
+                      <p className="text-gray-700 text-base ">"Rooted in our collective spirit, Drishti symbolizes the drive for excellence achieved through teamwork. With the unity of all participants, this tech fest is coming back stronger than ever.
 
-                        Now, in 2023, Drishti is set to make a comeback in offline mode at the Government College of Engineering Nagpur. The fest promises to be a platform for mechanical enthusiasts to showcase their skills and knowledge through various events and competitions. It will provide an opportunity for participants to interact with industry experts and gain valuable insights into the field of mechanical engineering.</p>
+                        With renewed energy, Drishti offers a diverse range of events, workshops, and exciting prizes for everyone to enjoy. Get ready for an unforgettable experience that's open to all.
+
+                        We can't wait to welcome everyone to this celebration!"</p>
 
                     </div>
                   </div>
@@ -239,7 +241,7 @@ export default function Home() {
                     <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Virtual Placements </h1>
-                      <p className="mt-2 text-gray-600 my-2">"  "</p>
+                      <p className="mt-2 text-gray-600 my-2"></p>
                       <Button auto shadow onPress={handler1} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                         Explore
                       </Button>
@@ -841,10 +843,9 @@ ul li a{
 }   
 
 
-        // .about_img{
-        //   background-image: url('https://img.freepik.com/free-photo/close-up-recording-video-with-smartphone-during-concert_1153-7310.jpg?w=996&t=st=1680473772~exp=1680474372~hmac=7934c62f3f2399fdb0cff4954cb7e46ccd4e4dd702b74b54647040143c911583"')
-          
-        // }
+.about_img{
+ background-image: url('https://s6.gifyu.com/images/S4Xmu.gif');
+}
 .drishti{
   color:white;
 }

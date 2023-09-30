@@ -7,8 +7,8 @@ function Contactus() {
 		<>
 			<div className='body1'>
 				<Head>
-					<title>Drishti 2k23</title>
-					<link rel="icon" href="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" />
+				<title>Drishti 2023 | MESA | GCOEN </title>
+				<link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 					<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />

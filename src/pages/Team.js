@@ -7,8 +7,8 @@ function Team() {
         <>
             <div className='body1'>
                 <Head>
-                    <title>Drishti 2k23</title>
-                    <link rel="icon" href="/logo-no-background.svg" />
+				<title>Drishti 2023 | MESA | GCOEN </title>
+				<link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
