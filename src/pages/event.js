@@ -67,8 +67,8 @@ function Event() {
 	return (
 		<div>
 			<Head>
-			<title>Drishti 2023 | MESA | GCOEN </title>
-			<link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
+				<title>Drishti 2023 | MESA | GCOEN </title>
+				<link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 				<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -91,7 +91,7 @@ function Event() {
 						<li><a className='btn btn-ghost' href="/Team">Team</a></li>
 						<li><a className='btn btn-ghost' href="/Contactus">Contact Us</a></li>
 					</ul>
-					<h1 class="logo"> <img src="/https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1>
+					<h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
 				</div>
 			</nav>
 			<div className='body1'>
@@ -833,11 +833,11 @@ function Event() {
 							font-size: 1.3rem;
 						}
 						.logo img{
-						  
-					width: 159px;
-					height: 40px;
-				
-						}
+          
+							width: 180px;
+							height: 70px;
+				  
+						  }
 						.menu-items li a{
 							list-style: none;
 							margin-left: 1.5rem;
@@ -995,6 +995,12 @@ function Event() {
 							.navbar-container input[type="checkbox"]:checked ~ .logo{
 								display: none;
 							}
+							.logo img{
+								width: 168px;
+								position: relative;
+								left: 11px;
+								bottom: 11px;
+							  }
 						}`}</style>
 		</div>
 

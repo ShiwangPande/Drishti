@@ -144,7 +144,9 @@ export default function Home() {
               <li><a className='btn btn-ghost' href="/Team">Team</a>    </li>
               <li><a className='btn btn-ghost' href="/Contactus">Contact Us</a>  </li>
             </ul>
-            <h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1>
+            {/* <h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1> */}
+            {/* <h1 class="logo"> <img src="https://i.postimg.cc/br3wxhCS/white-drishti.png" alt="" /></h1> */}
+            <h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
           </div>
         </nav>
         {/* background: ur(""); */}
@@ -1009,8 +1011,8 @@ ul li a{
         }
         .logo img{
           
-    width: 159px;
-    height: 40px;
+          width: 180px;
+          height: 70px;
 
         }
         .menu-items li a{
@@ -1189,9 +1191,10 @@ ul li a{
             width: 80vw;
         }
         .logo img{
-          width: 112px;
+          width: 168px;
           position: relative;
-          bottom: -15px;
+          left: 11px;
+          bottom: 11px;
         }
         .glow{
           font-size: 4.8rem;
