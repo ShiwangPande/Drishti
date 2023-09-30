@@ -3,6 +3,9 @@ import React from "react";
 import Img from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { useState } from 'react'
+import Layout from './api/components/Layout'
+import data from "./data.json"
 import Script from 'next/script'
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap/dist/gsap";
@@ -11,13 +14,18 @@ import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import { Grid } from "@nextui-org/react";
 import Footer from './api/components/Footer';
-
 const inter = Inter({ subsets: ['latin'] });
 
 
 export default function Home() {
   const root = useRef();
-
+  const [active, setActive] = useState([false, false, false, false, false]);
+  const isSomeActive = active.some((element) => element);
+  const handleClick = () => {
+    isSomeActive
+      ? setActive([false, false, false, false, false])
+      : setActive([true, true, true, true, true, true]);
+  };
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
@@ -142,7 +150,7 @@ export default function Home() {
         {/* background: ur(""); */}
         <div className="container mx-auto">
           <div className="flex flex-col items-center justify-center min-h-screen py-2">
-            <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+            <main className="flex flex-col items-center justify-center w-full flex-1 px-0 lg:px-20 text-center">
               {/* <div className='main_bg h-screen w-screen'> */}
               <div className="page h-screen items-center main_image" ref={root}>
                 <div class="wrapper ">
@@ -161,7 +169,7 @@ export default function Home() {
               <div className="my-20" id='about'>
                 <h1 className="text-6xl font-bold mb-8 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/QWJvdXQ/race-sport.png" alt="" /> </h1>
                 <div className="max-w-md w-full lg:max-w-full lg:flex border-0  aboutt ">
-                  <div className="h-48 lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
+                  <div className=" h-auto lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
                   </div>
                   <div className="  border-0 h- rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
                     <div className="mb-8">
@@ -688,6 +696,16 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className='grid place-items-center w-full'>
+                <Layout
+                  handleClick={handleClick}
+                  isSomeActive={isSomeActive}
+                  data={data}
+                  turn={active}
+                  setTurn={setActive}
+                />
+              </div>
+
 
               {/* <div className="my-20" id='sponsor'>
                 <h1 className="text-6xl font-bold mb-5 text-white"> <img className='spons' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/c3BvbnNvcnM/race-sport.png" alt="" /> </h1>
