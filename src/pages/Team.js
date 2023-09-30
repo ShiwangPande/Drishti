@@ -3,109 +3,145 @@ import Head from 'next/head'
 import Footer from './api/components/Footer'
 
 function Team() {
-    return (
-        <>
-            <div className='body1'>
-                <Head>
-				<title>Drishti 2023 | MESA | GCOEN </title>
-				<link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
-                    <link rel="preconnect" href="https://fonts.googleapis.com" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+	return (
+		<>
+			<div className='body1'>
+				<Head>
+					<title>Drishti 2023 | MESA | GCOEN </title>
+					<link rel="icon" href="https://i.postimg.cc/LXVx3CzZ/white-drishti-23.png" />
+					<link rel="preconnect" href="https://fonts.googleapis.com" />
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+					<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-                </Head>
+				</Head>
 
-                <nav class="navbar">
-                    <div class="navbar-container container">
-                        <input type="checkbox" name="" id="" />
-                        <div class="hamburger-lines">
-                            <span class="line line1"></span>
-                            <span class="line line2"></span>
-                            <span class="line line3"></span>
-                        </div>
-                        <ul class="menu-items">
-                            <li>
-                                <a className='btn btn-ghost' href="/">Home</a></li>
-                            <li>
-                                <a className='btn btn-ghost' href="/event">
-                                    Event</a></li>
-                            {/* <li><a className='btn btn-ghost' href="#">Gallery</a></li> */}
-                            <li><a className='btn btn-ghost' href="/Team">Team</a></li>
-                            <li><a className='btn btn-ghost' href="/Contactus">Contact Us</a></li>
-                        </ul>
-                        <h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
-                    </div>
-                </nav>
-                <div class=" min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
-                    <div class="">
-                        <div class="">
+				<nav class="navbar">
+					<div class="navbar-container container">
+						<input type="checkbox" name="" id="" />
+						<div class="hamburger-lines">
+							<span class="line line1"></span>
+							<span class="line line2"></span>
+							<span class="line line3"></span>
+						</div>
+						<ul class="menu-items">
+							<li>
+								<a className='btn btn-ghost' href="/">Home</a></li>
+							<li>
+								<a className='btn btn-ghost' href="/event">
+									Event</a></li>
+							{/* <li><a className='btn btn-ghost' href="#">Gallery</a></li> */}
+							<li><a className='btn btn-ghost' href="/Team">Team</a></li>
+							<li><a className='btn btn-ghost' href="/Contactus">Contact Us</a></li>
+						</ul>
+						<h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
+					</div>
+				</nav>
+				<div class=" min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+					<div class="">
+						<div class="">
 
-                            <ul class="honeycomb" lang="es">
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/fpQTVpr/om-bhaiyaa.png" />
-                                    <div class="honeycomb-cell__title">Om ambarte <small>Advisor</small> </div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/HryKJV7/ashutosh-bhaiya.png" />
-                                    <div class="honeycomb-cell__title">Ashutosh Acharya <small>President</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/jzc3Mfm/bhavika-didi2.png" />
-                                    <div class="honeycomb-cell__title">Bhavika Khode <small>Vice President</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/t8Jd8Jh/shlok-bhai.png" />
-                                    <div class="honeycomb-cell__title">Renu Bhendarkar <small>Secretary</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/pRQSc68/akash-paraskar.png" />
-                                    <div class="honeycomb-cell__title">Akash Paraskar<small>Tech Lead</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/6BCLyx7/shiwang.png" />
-                                    <div class="honeycomb-cell__title">Shiwang Pandey<small>Tech Head</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/PQSwwq7/parth.png" />
-                                    <div class="honeycomb-cell__title">Parth Tirmare <small>Tech Head</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://i.ibb.co/wQG0Qtp/kaushik-bhaiya.png" />
-                                    <div class="honeycomb-cell__title">Kaushik  <small>Treasurer</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/5" />
-                                    <div class="honeycomb-cell__title">Akash Paraskar<small>Tech Lead</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/6" />
-                                    <div class="honeycomb-cell__title">Shiwang Pandey<small>Tech Head</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/7" />
-                                    <div class="honeycomb-cell__title">Parth Tirmare <small>Tech Head</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/5" />
-                                    <div class="honeycomb-cell__title">Akash Paraskar<small>Tech Lead</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/6" />
-                                    <div class="honeycomb-cell__title">Shiwang Pandey<small>Tech Head</small></div>
-                                </li>
-                                <li class="honeycomb-cell">
-                                    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/7" />
-                                    <div class="honeycomb-cell__title">Parth Tirmare <small>Tech Head</small></div>
-                                </li>
-                                <li class="honeycomb-cell honeycomb__placeholder"></li>
-                            </ul>
-                        </div>
-                    </div>
+							<ul class="honeycomb" lang="es">
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/Kv3dWcq5/1.png" />
+									<div class="honeycomb-cell__title">Maurya Khandait <small>President</small> </div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/rwS78nL0/2.png" />
+									<div class="honeycomb-cell__title">Shiwang Pandey <small>Vice President</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/R04yq7MP/3.png" />
+									<div class="honeycomb-cell__title">Parth Tirmare<small>Vice President</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/MHNgGgTR/4.png" />
+									<div class="honeycomb-cell__title">Ketaki Mahalle <small>Secretary</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/XvLh5rqn/5.png" />
+									<div class="honeycomb-cell__title">Sushrut Kohale<small>Joint Secretary</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/d1SxWgGX/6.png" />
+									<div class="honeycomb-cell__title">Rutuja Nimbalkar<small>Organization Head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/Kc1GZ2p1/7.png" />
+									<div class="honeycomb-cell__title">Varun Dudhane <small>Organization Co head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/prh13kZd/8.png" />
+									<div class="honeycomb-cell__title">Ayush Khangar  <small>Organization Co head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/GtTz2263/Untitled-design-18.png" />
+									<div class="honeycomb-cell__title">Vedant Nimgade<small>Sports Coordinator</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/NGZgFzZp/9.png" />
+									<div class="honeycomb-cell__title">Virendra Rathod<small>Sports Head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/wMCbzJfQ/10.png" />
+									<div class="honeycomb-cell__title">Prasad Sawalkar<small>Sports Head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/PrZdwMjh/11.png" />
+									<div class="honeycomb-cell__title">Ameya Moharil<small>Sports Co head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/Bn04c1SF/12.png" />
+									<div class="honeycomb-cell__title">Nilay Pathak<small>sports co head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/52S1PNyR/13.png" />
+									<div class="honeycomb-cell__title">Shlok Tajne<small>Treasurer</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/wBxzn8sT/14.png" />
+									<div class="honeycomb-cell__title">Aditya Muddamwar <small>Joint Treasurer</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/tgrbjShd/15.png" />
+									<div class="honeycomb-cell__title">Nikita Rahangdale <small>Ladies representative</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/ZRCSK8cG/16.png" />
+									<div class="honeycomb-cell__title">Radhika Pimple <small>Ladies representative</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/1XF1DybM/17.png" />
+									<div class="honeycomb-cell__title">Asmita Suryavanshi <small>Ladies representative</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/d1pK7hNL/18.png" />
+									<div class="honeycomb-cell__title">Arnav Gadpayle<small>Tech Head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/G2MZW4nX/19.png" />
+									<div class="honeycomb-cell__title">Ranashashank Ambad <small>Technical Co head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/HnVfdTpd/20.png" />
+									<div class="honeycomb-cell__title">Mitali Stephen <small>Technical co head</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/htFHRFNR/21.png" />
+									<div class="honeycomb-cell__title">Sushant Gujar<small>Executive Member</small></div>
+								</li>
+								<li class="honeycomb-cell">
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/1RjkMVHt/22.png" />
+									<div class="honeycomb-cell__title">Anurag Darvatkar <small>Executive Member</small></div>
+								</li>
+								<li class="honeycomb-cell honeycomb__placeholder"></li>
+							</ul>
+						</div>
+					</div>
 
-                </div>
-                <Footer />
-            </div >
-            <style jsx global > {`
+				</div>
+				<Footer />
+			</div >
+			<style jsx global > {`
 			    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Russo+One&display=swap');
                 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 body {
@@ -628,8 +664,8 @@ body {
 								bottom: 11px;
 							  }
 						}`}</style>
-        </>
-    )
+		</>
+	)
 }
 
 export default Team
