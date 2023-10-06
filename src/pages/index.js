@@ -14,6 +14,8 @@ import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import { Grid } from "@nextui-org/react";
 import Footer from './api/components/Footer';
+import Eyes from './Eyes';
+
 const inter = Inter({ subsets: ['latin'] });
 
 
@@ -30,7 +32,7 @@ export default function Home() {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
 
-      gsap.to(".box", { rotation: 0, y: 250, duration: 2 });
+      gsap.to(".box", { rotation: 0, y: 180, duration: 2 });
     }, root);
 
     return () => ctx.revert();
@@ -157,11 +159,15 @@ export default function Home() {
               <div className="page h-screen items-center main_image" ref={root}>
                 <div class="wrapper ">
 
-                  <div class="glow " data-text="Glow">Drishti</div>
-                  <div class="glow-shadow" aria-hidden="true">Drishti</div>
+                  {/* <div class="glow " data-text="Glow">Drishti</div>
+                  <div class="glow-shadow" aria-hidden="true">Drishti</div> */}
+
+                  <Eyes />
                   <div className='flex items-center'>
-                    <div className="box  lg:invisible">
-                      <img src="https://i.ibb.co/Lv8S3qy/imgbin-robot-gear-mechanical-engineering-mechanism-png.png" alt="" />
+                    <div className="box  lg:invisible  	">
+                      <h3 className=' font-thin leading-snug		  '>
+                        Welcome to Drishti 2023
+                      </h3>
                     </div>
                   </div>
 
@@ -169,12 +175,12 @@ export default function Home() {
                 {/* <a href="https://ibb.co/6gLP95s"><img src={drishti} alt="asdfhj" border="0" /></a> */}
               </div>
               <div className="my-20" id='about'>
-                <h1 className="text-6xl font-bold mb-8 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/QWJvdXQ/race-sport.png" alt="" /> </h1>
+                <h1 className="text-6xl  mb-8 text-white tracking-wide"> ABOUT </h1>
                 <div className="max-w-md w-full lg:max-w-full lg:flex border-0  aboutt ">
                   <div className=" h-auto lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
                   </div>
                   <div className="  border-0 h- rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
-                    <div className="mb-8">
+                    <div className="">
 
                       <p className="text-gray-700 text-base ">"Rooted in our collective spirit, Drishti symbolizes the drive for excellence achieved through teamwork. With the unity of all participants, this tech fest is coming back stronger than ever.
 
@@ -187,14 +193,14 @@ export default function Home() {
                 </div>
               </div>
               <div className="" id='event'>
-                <h1 className="text-6xl font-bold mb-10 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RXZlbnRz/race-sport.png" alt="" />  </h1>
+                <h1 className="text-6xl  mb-8 text-white tracking-wide"> EVENTS </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 aboutt">
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="bg-cover h-56 p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Incadibles</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
                       <div>
@@ -252,7 +258,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Virtual Placements </h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler1} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler1} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
                       <div>
@@ -312,7 +318,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Ai workshop</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler2} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler2} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
 
@@ -376,7 +382,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Robocon Competition</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler3} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler3} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
 
@@ -439,7 +445,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Chess</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler4} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
 
@@ -503,7 +509,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">treasure hunt</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler5} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler5} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
 
@@ -571,7 +577,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Slow Football</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler6} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler6} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
 
@@ -634,7 +640,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="text-xl font-bold text-gray-700">Webies</h1>
                       <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler7} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                      <Button auto shadow onPress={handler7} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
                         Explore
                       </Button>
 
@@ -710,7 +716,7 @@ export default function Home() {
 
 
               {/* <div className="my-20" id='sponsor'>
-                <h1 className="text-6xl font-bold mb-5 text-white"> <img className='spons' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/c3BvbnNvcnM/race-sport.png" alt="" /> </h1>
+                <h1 className="text-6xl  mb-8 text-white tracking-wide"> SPONSORS </h1>
                 <div className="grid grid-cols-3 gap-20 sponss">
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <Link href="https://www.google.com/">
@@ -753,16 +759,16 @@ export default function Home() {
         <style jsx global > {`
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Russo+One&display=swap');
          #event{
-        font-family: 'Poppins', sans-serif;
+         font-family: "Montserrat", sans-serif;
           font-weight: 600;
         }
         .event_modal p{
-          font-family: 'Poppins', sans-serif;
+           font-family: "Montserrat", sans-serif;
           font-weight: 300;
         }
         #modal-title{
           font-size: 1.8rem;
-          font-family: 'Poppins', sans-serif;
+           font-family: "Montserrat", sans-serif;
           font-weight: 600;
         }
         #modal-description h1{
@@ -773,19 +779,21 @@ export default function Home() {
           font-size:1em;
         }
 .about__drishti p{
-  font-family: 'Russo One', sans-serif;
   color: white;
-  line-height: 28px;
+  line-height: 34px;
+  font-size: larger;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
 
 }
 .card_content h1{
-  font-family: 'Russo One', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .about__drishti{
-  background-image: linear-gradient( 180deg, hsl(207deg 84% 19%) 0%, hsl(215deg 84% 34%) 39%, hsl(216deg 84% 32%) 61%, hsl(213deg 88% 6%) 100% );
+background: #116463;
 }
 ul li a{
-  font-family: 'Russo One', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
         .events{
@@ -802,7 +810,7 @@ ul li a{
           margin: 1rem auto;
         }
 .wrapper {
-  background-image: url(https://www.linkpicture.com/q/Premium-Photo-_-Technology-digital-wave-background.jpeg);
+  background-image: url(https://i.postimg.cc/yYwHPsRj/abstract-flowing-waves-design.jpg);
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: color;
   background-repeat: no-repeat;
@@ -810,13 +818,13 @@ ul li a{
   background-size: 100vw 100vh;
   aspect-ratio: 16/9;
   position: relative;
-  width: 100vw;
+  width: 99vw;
   height: 100%;
   border-radius: 15px;
   padding-block-end: 2rem;
   padding-inline: 2rem;
   overflow-x: clip;
-  font-family: 'Poppins', sans-serif;
+   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: clamp(1.5rem, 15vw, 15rem);
   font-weight: 700;
@@ -870,6 +878,17 @@ ul li a{
   color:white;
 }
         .body1{background-image: linear-gradient( 202deg, hsl(270deg 100% 7%) 0%, hsl(260deg 89% 10%) 6%, hsl(249deg 80% 14%) 13%, hsl(239deg 71% 18%) 19%, hsl(228deg 63% 22%) 25%, hsl(218deg 56% 26%) 31%, hsl(208deg 50% 31%) 37%, hsl(197deg 44% 36%) 44%, hsl(187deg 38% 41%) 50%, hsl(177deg 33% 47%) 56%, hsl(166deg 32% 53%) 63%, hsl(156deg 34% 59%) 69%, hsl(145deg 37% 66%) 75%, hsl(135deg 41% 73%) 81%, hsl(125deg 47% 80%) 87%, hsl(114deg 58% 87%) 94%, hsl(104deg 100% 95%) 100% );
+          background-image: linear-gradient(
+            180deg,
+            hsl(0deg 0% 0%) 0%,
+            hsl(180deg 71% 7%) 14%,
+            hsl(181deg 71% 13%) 29%,
+            hsl(181deg 71% 20%) 43%,
+            hsl(179deg 66% 32%) 57%,
+            hsl(174deg 55% 50%) 71%,
+            hsl(169deg 44% 68%) 86%,
+            hsl(164deg 33% 86%) 100%
+          );
 
         }
 
@@ -884,10 +903,10 @@ ul li a{
           height: 65px;
         }
 .main_image{
-  background: url('https://www.linkpicture.com/q/Premium-Photo-_-Technology-digital-wave-background.jpeg');
+  background: url('https://i.postimg.cc/yYwHPsRj/abstract-flowing-waves-design.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 98.5vw;
+  width: 99VW;
   margin-left: -6px;
   height: 100vh;
 }
@@ -988,7 +1007,7 @@ ul li a{
             box-shadow: 0px 5px 10px 0px black;
             position: fixed;
             width: 100%;
-            background: linear-gradient(to right, rgb(0 114 255), rgb(22 54 105), rgb(0 0 0));;
+         background: #116463;
             color: #fff;
             opacity: 0.85;
             z-index: 100;

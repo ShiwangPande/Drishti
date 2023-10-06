@@ -36,7 +36,7 @@ function Contactus() {
 						<h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
 					</div>
 				</nav>
-				<div class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+				<div class="relative flex items-top justify-center min-h-screen bg-gray-900 sm:items-center sm:pt-0">
 					<div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
 						<div class="mt-8 overflow-hidden">
 							<div class="grid grid-cols-1 md:grid-cols-2">
@@ -116,16 +116,16 @@ function Contactus() {
 			<style jsx global > {`
 			    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Russo+One&display=swap');
 				#event{
-			   font-family: 'Poppins', sans-serif;
+			    font-family: "Montserrat", sans-serif;
 				 font-weight: 600;
 			   }
 			   .event_modal p{
-				 font-family: 'Poppins', sans-serif;
+				  font-family: "Montserrat", sans-serif;
 				 font-weight: 300;
 			   }
 			   #modal-title{
 				 font-size: 1.8rem;
-				 font-family: 'Poppins', sans-serif;
+				  font-family: "Montserrat", sans-serif;
 				 font-weight: 600;
 			   }
 			   #modal-description h1{
@@ -183,7 +183,7 @@ function Contactus() {
 		 padding-block-end: 2rem;
 		 padding-inline: 2rem;
 		 overflow-x: clip;
-		 font-family: 'Poppins', sans-serif;
+		  font-family: "Montserrat", sans-serif;
 		 font-weight: 900;
 		 font-size: clamp(1.5rem, 15vw, 15rem);
 		 font-weight: 700;
@@ -309,7 +309,7 @@ function Contactus() {
 							box-shadow: 0px 5px 10px 0px black;
 							position: fixed;
 							width: 100%;
-							background: linear-gradient(to right, rgb(0 114 255), rgb(22 54 105), rgb(0 0 0));;
+							background: #116463;
 							color: #fff;
 							opacity: 0.85;
 							z-index: 100;

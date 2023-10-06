@@ -33,9 +33,9 @@ function Footer() {
 
                 </Head>
 
-                <footer className=" p-10 bg-gradient-to-b from-sky-800 via-blue-600 to-slate-900 bg-opacity-50  ">
+                <footer className=" px-10 pt-10 bg-[#116463]    ">
                     <div >
-                        <img className='logos' src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" />
+                        <img className='logos' src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" />
                         <br />
                     </div>
                     <div className='footer my-5'>
@@ -84,16 +84,16 @@ function Footer() {
                     {`
                  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Russo+One&display=swap');
                  footer{
-                    font-family: 'Russo One', sans-serif;
+                    font-family: "Montserrat", sans-serif;
                     font-size: 2rem;
-                    height: 84vh;
+                    height: 75vh;
                     gap: 1rem;
 
                  }
                  .foot_copy{
                     text-align: center;
                     font-size: 1rem;
-                    font-family: 'Poppins', sans-serif;
+                   font-family: "Montserrat", sans-serif;
                     color: #fff;
                     margin-top: 2rem;
                     margin-bottom: 3rem;
@@ -129,7 +129,7 @@ function Footer() {
                 color: #fff;
              }
              footer{
-                font-family: 'Russo One', sans-serif;
+                font-family: "Montserrat", sans-serif;
                 font-size: 1rem;
                 height: 150vh;
                 display: flex;
