@@ -29,31 +29,6 @@ export default function Home() {
       : setActive([true, true, true, true, true, true]);
   };
 
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-
-      gsap.to(".box", { rotation: 0, y: 180, duration: 2 });
-    }, root);
-
-    return () => ctx.revert();
-  }, []);
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-
-      gsap.to(".box2", { rotation: 360, x: -230, duration: 2 });
-    }, root);
-
-    return () => ctx.revert();
-  }, []);
-
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-
-      gsap.to(".glow", { rotation: 0, y: 60, duration: 5 });
-    }, root);
-
-    return () => ctx.revert();
-  }, []);
 
 
   const [visible, setVisible] = React.useState(false);
@@ -164,8 +139,8 @@ export default function Home() {
 
                   <Eyes />
                   <div className='flex items-center'>
-                    <div className="box  lg:invisible  	">
-                      <h3 className=' font-thin leading-snug		  '>
+                    <div className="boxer  lg:invisible  	">
+                      <h3 className=' font-thin text-4xl leading-snug	text-white	  '>
                         Welcome to Drishti 2023
                       </h3>
                     </div>
@@ -177,7 +152,7 @@ export default function Home() {
               <div className="my-20" id='about'>
                 <h1 className="text-6xl  mb-8 text-white tracking-wide"> ABOUT </h1>
                 <div className="max-w-md w-full lg:max-w-full lg:flex border-0  aboutt ">
-                  <div className=" h-auto lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Woman holding a mug">
+                  <div className=" h-auto lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Drishti 2023">
                   </div>
                   <div className="  border-0 h- rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal  about__drishti">
                     <div className="">
@@ -1052,6 +1027,23 @@ ul li a{
         }
         
         @media (max-width: 768px){
+          .boxer{
+            position: absolute;
+            opacity: 0;
+            animation: welcomee 5s alternate forwards ease-in-out;
+            animation-delay: 1.5s;
+          }
+
+          @keyframes welcomee {
+            from {
+              top: 0%;
+              opacity: 0;
+            }
+            to {
+              opacity: 1;
+              top: 50%;
+            }
+          }
           .box {
            
     width: 250px;
