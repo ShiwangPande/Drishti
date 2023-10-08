@@ -33,7 +33,7 @@ function Footer() {
 
                 </Head>
 
-                <footer className=" px-10 pt-10 bg-[#116463]    ">
+                <footer className=" px-10 pt-10 bg-[#0f0f0f;]    ">
                     <div >
                         <img className='logos' src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" />
                         <br />

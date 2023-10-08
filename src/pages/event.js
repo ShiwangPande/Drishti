@@ -99,14 +99,14 @@ function Event() {
 					<div className="flex flex-col items-center justify-center min-h-screen py-2">
 						<main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center mt-32 mb-9">
 							<div className="" id='event'>
-								<h1 className="text-6xl font-bold mb-10 text-white"> <img className='events' src="https://see.fontimg.com/api/renderfont4/BWPLV/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RXZlbnRz/race-sport.png" alt="" />  </h1>
-								<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 aboutt">
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+								<h1 className="text-6xl  mb-20 text-white tracking-wide"> EVENTS </h1>
+								<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] lg:gap-[10rem] aboutt">
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Incadibles</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Incadibles</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler} >
 												Explore
 											</Button>
 											<div>
@@ -121,14 +121,13 @@ function Event() {
 													onClose={closeHandler}
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
@@ -144,11 +143,11 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat >
+																<Button color="secondary" role="button" auto flat >
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register  [&#8377;60/-]
 																	</Button></Link>
 
@@ -159,12 +158,12 @@ function Event() {
 											</div>
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Virtual Placements </h1>
-											<p className="mt-2 text-gray-600 my-2">"  "</p>
-											<Button auto shadow onPress={handler1} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Virtual Placements </h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler1} >
 												Explore
 											</Button>
 											<div>
@@ -179,14 +178,13 @@ function Event() {
 													onClose={closeHandler1}
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
@@ -202,11 +200,11 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat >
+																<Button color="secondary" role="button" auto flat >
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register [&#8377;60]</Button>
 																</Link>
 
@@ -219,12 +217,12 @@ function Event() {
 
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Ai workshop</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler2} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler2} >
 												Explore
 											</Button>
 
@@ -242,14 +240,13 @@ function Event() {
 													onClose={closeHandler2}
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
@@ -265,11 +262,11 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat>
+																<Button color="secondary" role="button" auto flat>
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register [&#8377;30](solo)
 																	</Button></Link>
 
@@ -283,12 +280,12 @@ function Event() {
 
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Robocon Competition</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler3} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Robocon Competition</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler3} >
 												Explore
 											</Button>
 
@@ -300,6 +297,7 @@ function Event() {
 													// scroll
 													blur
 													width="800px"
+
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible3}
@@ -329,11 +327,11 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat >
+																<Button color="secondary" role="button" auto flat >
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register [&#8377;70]
 																	</Button></Link>
 
@@ -346,12 +344,12 @@ function Event() {
 
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Chess</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler4} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler4} >
 												Explore
 											</Button>
 
@@ -370,14 +368,13 @@ function Event() {
 
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
@@ -393,11 +390,11 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat>
+																<Button color="secondary" role="button" auto flat>
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register (Duo) [&#8377;100]
 																	</Button></Link>
 
@@ -410,12 +407,12 @@ function Event() {
 
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">treasure hunt</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler5} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">treasure hunt</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button class="button-72 text-lg" color="secondary" role="button" onPress={handler5} >
 												Explore
 											</Button>
 
@@ -425,8 +422,9 @@ function Event() {
 												<Modal
 													closeButton
 													// scroll
+
 													blur
-													width="800px"
+													width='80%'
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible5}
@@ -434,17 +432,16 @@ function Event() {
 
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
+																<Text id="modal-title" className='font-black text-3xl capitalize' size={18}>
 																	treasure hunt
 																</Text>
 															</Modal.Header>
@@ -457,15 +454,15 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat>
+																<Button color="secondary" role="button" auto flat>
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register (Duo) [&#8377;60]
 																	</Button></Link>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register (Team) [&#8377;120]
 																	</Button></Link>
 
@@ -478,12 +475,12 @@ function Event() {
 
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Slow Football</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler6} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Slow Football</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler6} >
 												Explore
 											</Button>
 
@@ -502,14 +499,13 @@ function Event() {
 
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
@@ -525,11 +521,11 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat>
+																<Button color="secondary" role="button" auto flat>
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register (Team) [&#8377;250]
 																	</Button></Link>
 															</Modal.Footer>
@@ -541,12 +537,12 @@ function Event() {
 
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden">
-										<div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="text-xl font-bold text-gray-700">Webies</h1>
-											<p className="mt-2 text-gray-600 my-2"></p>
-											<Button auto shadow onPress={handler7} class="bg-blue-500 m-auto hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Webies</h1>
+											<p className="mt-2 text-gray-600 my-7"></p>
+											<Button color="secondary" role="button" onPress={handler7} >
 												Explore
 											</Button>
 
@@ -565,14 +561,13 @@ function Event() {
 
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
@@ -588,15 +583,15 @@ function Event() {
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button auto flat>
+																<Button color="secondary" role="button" auto flat>
 																	learn more
 																</Button>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register (Single) [&#8377;70]
 																	</Button></Link>
 																<Link href=''>
-																	<Button auto >
+																	<Button color="secondary" role="button" auto >
 																		Register (Duo) [&#8377;100]
 																	</Button></Link>
 															</Modal.Footer>

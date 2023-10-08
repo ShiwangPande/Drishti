@@ -127,7 +127,7 @@ export default function Home() {
           </div>
         </nav>
         {/* background: ur(""); */}
-        <div className="container mx-auto">
+        <div className="container ">
           <div className="flex flex-col items-center justify-center min-h-screen py-2">
             <main className="flex flex-col items-center justify-center w-full flex-1 px-0 lg:px-20 text-center">
               {/* <div className='main_bg h-screen w-screen'> */}
@@ -139,8 +139,8 @@ export default function Home() {
 
                   <Eyes />
                   <div className='flex items-center'>
-                    <div className="boxer  lg:invisible  	">
-                      <h3 className=' font-thin text-4xl leading-snug	text-white	  '>
+                    <div className="boxer   	">
+                      <h3 className=' font-thin text-4xl lg:text-5xl lg:font-medium leading-snug	text-white	  '>
                         Welcome to Drishti 2023
                       </h3>
                     </div>
@@ -150,7 +150,7 @@ export default function Home() {
                 {/* <a href="https://ibb.co/6gLP95s"><img src={drishti} alt="asdfhj" border="0" /></a> */}
               </div>
               <div className="my-20" id='about'>
-                <h1 className="text-6xl  mb-8 text-white tracking-wide"> ABOUT </h1>
+                <h1 className="text-6xl  mb-20 text-white tracking-wide"> ABOUT </h1>
                 <div className="max-w-md w-full lg:max-w-full lg:flex border-0  aboutt ">
                   <div className=" h-auto lg:h-[17rem] lg:w-[30rem] aspect-video flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden about_img" title="Drishti 2023">
                   </div>
@@ -168,14 +168,14 @@ export default function Home() {
                 </div>
               </div>
               <div className="" id='event'>
-                <h1 className="text-6xl  mb-8 text-white tracking-wide"> EVENTS </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 aboutt">
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                <h1 className="text-6xl  mb-20 text-white tracking-wide"> EVENTS </h1>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] lg:gap-[10rem] aboutt">
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Incadibles</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Incadibles</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler} >
                         Explore
                       </Button>
                       <div>
@@ -190,14 +190,13 @@ export default function Home() {
                           onClose={closeHandler}
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -213,11 +212,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat >
+                                <Button color="secondary" role="button" auto flat >
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register  [&#8377;60/-]
                                   </Button></Link>
 
@@ -228,12 +227,12 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Virtual Placements </h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler1} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Virtual Placements </h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler1} >
                         Explore
                       </Button>
                       <div>
@@ -248,14 +247,13 @@ export default function Home() {
                           onClose={closeHandler1}
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -271,11 +269,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat >
+                                <Button color="secondary" role="button" auto flat >
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register [&#8377;60]</Button>
                                 </Link>
 
@@ -288,12 +286,12 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Ai workshop</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler2} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler2} >
                         Explore
                       </Button>
 
@@ -311,14 +309,13 @@ export default function Home() {
                           onClose={closeHandler2}
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -334,11 +331,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat>
+                                <Button color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register [&#8377;30](solo)
                                   </Button></Link>
 
@@ -352,12 +349,12 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Robocon Competition</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler3} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Robocon Competition</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler3} >
                         Explore
                       </Button>
 
@@ -369,6 +366,7 @@ export default function Home() {
                           // scroll
                           blur
                           width="800px"
+
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible3}
@@ -398,11 +396,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat >
+                                <Button color="secondary" role="button" auto flat >
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register [&#8377;70]
                                   </Button></Link>
 
@@ -415,12 +413,12 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Chess</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler4} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler4} >
                         Explore
                       </Button>
 
@@ -439,14 +437,13 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -462,11 +459,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat>
+                                <Button color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
 
@@ -479,12 +476,12 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">treasure hunt</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler5} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">treasure hunt</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button class="button-72 text-lg" color="secondary" role="button" onPress={handler5} >
                         Explore
                       </Button>
 
@@ -494,8 +491,9 @@ export default function Home() {
                         <Modal
                           closeButton
                           // scroll
+
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible5}
@@ -503,17 +501,16 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                            <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
-                                <Text id="modal-title" className='font-black' size={18}>
+                                <Text id="modal-title" className='font-black text-3xl capitalize' size={18}>
                                   treasure hunt
                                 </Text>
                               </Modal.Header>
@@ -526,15 +523,15 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat>
+                                <Button color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;60]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register (Team) [&#8377;120]
                                   </Button></Link>
 
@@ -547,12 +544,12 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Slow Football</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler6} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Slow Football</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler6} >
                         Explore
                       </Button>
 
@@ -571,14 +568,13 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -594,11 +590,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat>
+                                <Button color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register (Team) [&#8377;250]
                                   </Button></Link>
                               </Modal.Footer>
@@ -610,12 +606,12 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                    <div className="bg-cover h-56 p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
-                      <h1 className="text-xl font-bold text-gray-700">Webies</h1>
-                      <p className="mt-2 text-gray-600 my-2"></p>
-                      <Button auto shadow onPress={handler7} class="bg-[#116463] m-auto hover:bg-[#116463] text-white font-bold py-2 px-4 border-b-4 border-[#D1E8E2] hover:border-[#116463] rounded">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Webies</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler7} >
                         Explore
                       </Button>
 
@@ -634,14 +630,13 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -657,15 +652,15 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button auto flat>
+                                <Button color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button auto >
+                                  <Button color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -691,7 +686,7 @@ export default function Home() {
 
 
               {/* <div className="my-20" id='sponsor'>
-                <h1 className="text-6xl  mb-8 text-white tracking-wide"> SPONSORS </h1>
+                <h1 className="text-6xl  mb-20 text-white tracking-wide"> SPONSORS </h1>
                 <div className="grid grid-cols-3 gap-20 sponss">
                   <div className="bg-white shadow-md rounded-lg overflow-hidden">
                     <Link href="https://www.google.com/">
@@ -765,7 +760,7 @@ export default function Home() {
   font-family: "Montserrat", sans-serif;
 }
 .about__drishti{
-background: #116463;
+  background: #44146b;
 }
 ul li a{
   font-family: "Montserrat", sans-serif;
@@ -785,9 +780,9 @@ ul li a{
           margin: 1rem auto;
         }
 .wrapper {
-  background-image: url(https://i.postimg.cc/yYwHPsRj/abstract-flowing-waves-design.jpg);
+  background-image: url(https://i.postimg.cc/xCPbmkft/drishti-bgg.png);
   background-color: rgba(0, 0, 0, 0.6);
-  background-blend-mode: color;
+  background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100vw 100vh;
@@ -853,18 +848,8 @@ ul li a{
   color:white;
 }
         .body1{background-image: linear-gradient( 202deg, hsl(270deg 100% 7%) 0%, hsl(260deg 89% 10%) 6%, hsl(249deg 80% 14%) 13%, hsl(239deg 71% 18%) 19%, hsl(228deg 63% 22%) 25%, hsl(218deg 56% 26%) 31%, hsl(208deg 50% 31%) 37%, hsl(197deg 44% 36%) 44%, hsl(187deg 38% 41%) 50%, hsl(177deg 33% 47%) 56%, hsl(166deg 32% 53%) 63%, hsl(156deg 34% 59%) 69%, hsl(145deg 37% 66%) 75%, hsl(135deg 41% 73%) 81%, hsl(125deg 47% 80%) 87%, hsl(114deg 58% 87%) 94%, hsl(104deg 100% 95%) 100% );
-          background-image: linear-gradient(
-            180deg,
-            hsl(0deg 0% 0%) 0%,
-            hsl(180deg 71% 7%) 14%,
-            hsl(181deg 71% 13%) 29%,
-            hsl(181deg 71% 20%) 43%,
-            hsl(179deg 66% 32%) 57%,
-            hsl(174deg 55% 50%) 71%,
-            hsl(169deg 44% 68%) 86%,
-            hsl(164deg 33% 86%) 100%
-          );
-
+        
+          background: linear-gradient(to top, rgb(14 14 14), rgb(88, 28, 135),rgb(15, 23, 42),rgb(0 0 0), rgb(23 23 23));
         }
 
         .event_modal{
@@ -877,6 +862,7 @@ ul li a{
           width: 65px;
           height: 65px;
         }
+
 .main_image{
   background: url('https://i.postimg.cc/yYwHPsRj/abstract-flowing-waves-design.jpg');
   background-size: cover;
@@ -891,7 +877,7 @@ ul li a{
           -moz-osx-font-smoothing: grayscale;
           text-align: center;
           color: #2c3e50;
-          margin-top: 60px;
+          // margin-top: 60px;
           display: flex;
         }
         .footer_button{
@@ -910,7 +896,7 @@ ul li a{
           color: #fff;
           margin: 0 auto;
         }
-        Button{
+        button{
           margin: 1rem auto;
         }
         .event_img{
@@ -974,18 +960,29 @@ ul li a{
         
         .container{
             max-width: 1200px;
-            width: 90%;
+            width: 100%;
             margin: auto;
         }
         
         .navbar{
-            box-shadow: 0px 5px 10px 0px black;
+            // box-shadow: 0px 5px 10px 0px black;
             position: fixed;
             width: 100%;
-         background: #116463;
+         background: #0f0f0f;
+        //  bakground: transparent;
             color: #fff;
             opacity: 0.85;
             z-index: 100;
+            animation: navbar 3s ease-in-out;
+        }
+
+        @keyframes navbar {
+          from {
+            top: -100%;
+          }
+          to {
+            top: 0%;
+          }
         }
         
         .navbar-container{
@@ -1025,12 +1022,66 @@ ul li a{
         .navbar a:hover{
             color: #117964;
         }
+        .boxer{
+          position: absolute;
+          opacity: 0;
+          right: 7%;
+          animation: welcome 3s alternate forwards ease-in-out;
+          animation-delay: 1.5s;
+        }
+
+        @keyframes welcome {
+          from {
+            top: 0%;
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+            top: 40%;
+          }
+        }
+        .button-72 {
+          align-items: center;
+          background-color: initial;
+          background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+          border-radius: 42px;
+          border-width: 0;
+          box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+          color: #FFFFFF;
+          cursor: pointer;
+          display: flex;
+          font-family: Quicksand,sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          justify-content: center;
+          letter-spacing: .04em;
+          line-height: 16px;
+          margin: 0;
+          padding: 18px 18px;
+          text-align: center;
+          text-decoration: none;
+          text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          vertical-align: baseline;
+          margin: auto;
+        }
         
+        .button-72:hover {
+          background-image: linear-gradient(#B384C9, #391F5B 50%);
+        }
+   
+
         @media (max-width: 768px){
+          .button-72 {
+            font-size: 21px;
+            padding: 18px 34px;
+          }
           .boxer{
             position: absolute;
             opacity: 0;
-            animation: welcomee 5s alternate forwards ease-in-out;
+            animation: welcomee 2s alternate forwards ease-in-out;
             animation-delay: 1.5s;
           }
 
@@ -1137,16 +1188,16 @@ ul li a{
             .navbar .menu-items{
                 padding-top: 100px;
                 
-            background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+                background: #0f0f0f;
                 height: 100vh;
-                max-width: 300px;
+                // max-width: 300px;
                 transform: translate(-150%);
                 display: flex;
                 flex-direction: column;
                 margin-left: -40px;
                 padding-left: 40px;
                 transition: transform 0.5s ease-in-out;
-                box-shadow:  5px 0px 10px 0px #aaa;
+                // box-shadow:  5px 0px 10px 0px #aaa;
                 overflow: scroll;
             }
         
@@ -1189,6 +1240,16 @@ ul li a{
         .event_modal{
           display: flex;
           flex-direction: column;
+          height: 100%;
+        }
+        Modal{
+          width: 100%;
+        }
+        .event_modal div{
+          width: 100%;
+          height: 80%;
+          padding: 2px;
+          margin: 0;
         }
         .footer_button{
           margin:0 0 4rem 0;

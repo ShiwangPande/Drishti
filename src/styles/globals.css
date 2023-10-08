@@ -8,17 +8,17 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-* {
+/* * {
   scrollbar-width: thin;
   scrollbar-color: white;
-}
+} */
 
 /* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   width: 15px;
-}
+} */
 
-*::-webkit-scrollbar-track {
+/* *::-webkit-scrollbar-track {
   background:#116463;
   border-radius: 5px;
 }
@@ -28,4 +28,4 @@ body {
   border-radius: 14px;
   border: 3px solid #116463;
 
-}
+} */

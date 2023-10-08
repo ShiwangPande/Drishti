@@ -1,43 +1,45 @@
 import Image from 'next/image';
 import Gear from './gear.svg';
-import Eye from './eye.svg';
-
+// import Eye from './eye.svg';
+import Eye from "./eyeessss.svg";
+import Circle from "./circle.svg";
 // import  BiggBossLoading  from "./BiggBossLoading"
 
 export default function Eyes() {
-    return (
-        <>
-            <div className="flex  flex-col items-center justify-between ">
-                <div class="ldoor"></div>
-                <div class="rdoor"></div>
-                <div className=' flex justify-center drishti_eye'>
-                    <div className="eye">
-                        <Image className='eyeImage' src={Eye} width="200" height="200" />
+  return (
+    <>
+      <div className="flex  flex-col items-center justify-between ">
+        <div class="ldoor"></div>
+        <div class="rdoor"></div>
+        <div className=' flex justify-center drishti_eye'>
+          <div className="eye">
+            <Image className='eyeImage' src={Eye} width="200" height="200" />
+            {/* <img className='eyeImage' src="https://i.postimg.cc/KYKsNMRc/1210524.png" width="200" height="200" /> */}
 
-                    </div>
-                    <div className="gear">
-                        <Image className='gearImg' src={Gear} width="200" height="200" />
-                    </div>
-                </div>
-                {/* <BiggBossLoading /> */}
-            </div>
-            <style jsx global > {`
+          </div>
+          <div className="gear">
+            {/* <Image className='gearImg' src={Gear} width="200" height="200" /> */}
+          </div>
+        </div>
+        {/* <BiggBossLoading /> */}
+      </div>
+      <style jsx global > {`
          .eye{
             position: absolute;
-            top: 15rem;
+            top: 13rem;
             
         }
         
         
         .eyeImage{
         
-        width: 45rem;
+        width: 30rem;
         }
         
         .gear{
             position: absolute;
             z-index: 1000;
-            top: 16rem;
+            top: 13rem;
             animation: spin 6s linear infinite;
         }
         
@@ -59,7 +61,7 @@ export default function Eyes() {
             height: 100%;
             position: absolute;
             opacity: 0;
-            animation: drishti_eye 5s alternate forwards ease-in-out;
+            animation: drishti_eye 3s alternate forwards ease-in-out;
             animation-delay: 1s;
            
         }
@@ -82,9 +84,9 @@ export default function Eyes() {
             height: 100%;
             position: absolute;
             left: 0;
-            animation: ldoor 4s normal forwards ease-in-out;
+            animation: ldoor 2s normal forwards ease-in-out;
        
-            background-image: url(https://i.postimg.cc/x8T6H0X7/row-1-column-1.png);
+            background-image: url(https://i.postimg.cc/dQXXhn1H/row-1-column-1-2.jpg);
             background-repeat: no-repeat;
             background-size: 100% 100%;
           }
@@ -93,9 +95,9 @@ export default function Eyes() {
             height: 100%;
             position: absolute;
             right: 0;
-            animation: rdoor 4s normal forwards ease-in-out;
+            animation: rdoor 2s normal forwards ease-in-out;
          
-            background-image: url(https://i.postimg.cc/kG1fvk85/row-1-column-2-1.png);
+            background-image: url(https://i.postimg.cc/8cqnxk9Q/row-1-column-2-2.jpg);
           
             background-repeat: no-repeat;
             background-size: 100% 100%;
@@ -142,15 +144,15 @@ export default function Eyes() {
               }
             .ldoor {
            
-                background-image: url(https://i.postimg.cc/3wBhDtj8/row-1-column-1-1.png);
+                background-image: url(https://i.postimg.cc/k5dV0TV2/row-1-column-1-4.png);
             }
             .rdoor {
              
-                background-image: url(https://i.postimg.cc/RFZB1wGc/row-1-column-2-2.png);
+                background-image: url(https://i.postimg.cc/VktrZxNy/row-1-column-2-4.png);
               }
           }
 
           `}</style >
-        </>
-    )
+    </>
+  )
 }
