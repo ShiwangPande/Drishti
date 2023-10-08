@@ -190,7 +190,7 @@ export default function Home() {
                           onClose={closeHandler}
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -247,7 +247,7 @@ export default function Home() {
                           onClose={closeHandler1}
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -309,7 +309,7 @@ export default function Home() {
                           onClose={closeHandler2}
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -437,7 +437,7 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -568,7 +568,7 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -630,7 +630,7 @@ export default function Home() {
 
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -864,7 +864,7 @@ ul li a{
         }
 
 .main_image{
-  background: url('https://i.postimg.cc/yYwHPsRj/abstract-flowing-waves-design.jpg');
+  background: url(https://i.postimg.cc/xCPbmkft/drishti-bgg.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 99VW;
