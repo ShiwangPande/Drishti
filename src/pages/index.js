@@ -494,6 +494,7 @@ export default function Home() {
 
                           blur
                           width='80%'
+                          className='lg:w-[80%] w-[800px] '
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible5}
