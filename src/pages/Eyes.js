@@ -141,7 +141,7 @@ export default function Eyes() {
                 }
               }
             .ldoor {
-                background-image: url(https://i.postimg.cc/k4mVL6PC/row-1-column-1-4-1.webp;
+                background-image: url(https://i.postimg.cc/k4mVL6PC/row-1-column-1-4-1.webp);
             }
             .rdoor {
                 background-image: url(https://i.postimg.cc/FRVfvrhL/row-1-column-2-4-1.webp);
