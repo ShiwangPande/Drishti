@@ -216,11 +216,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -276,11 +276,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -341,11 +341,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -471,11 +471,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -539,11 +539,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -605,11 +605,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -671,11 +671,11 @@ export default function Home() {
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -857,7 +857,8 @@ ul li a{
 
 
 .about_img{
- background-image: url('https://s6.gifyu.com/images/S4Xmu.gif');
+//  background-image: url('https://s6.gifyu.com/images/S4Xmu.gif');
+ background-image: url('https://i.postimg.cc/Kv632MxV/ezgifcom-optimize-1.gif');
 }
 .drishti{
   color:white;
