@@ -86,7 +86,8 @@ export default function Eyes() {
             left: 0;
             animation: ldoor 2s normal forwards ease-in-out;
        
-            background-image: url(https://i.postimg.cc/dQXXhn1H/row-1-column-1-2.jpg);
+            // background-image: url(https://i.postimg.cc/dQXXhn1H/row-1-column-1-2.jpg);
+            background-image: url(https://i.postimg.cc/43t78vMw/row-1-column-1-2-1.webp);
             background-repeat: no-repeat;
             background-size: 100% 100%;
           }
@@ -97,7 +98,8 @@ export default function Eyes() {
             right: 0;
             animation: rdoor 2s normal forwards ease-in-out;
          
-            background-image: url(https://i.postimg.cc/8cqnxk9Q/row-1-column-2-2.jpg);
+            // background-image: url(https://i.postimg.cc/8cqnxk9Q/row-1-column-2-2.jpg);
+            background-image: url(https://i.postimg.cc/3NLdyt4r/row-1-column-2-2-1.webp);
           
             background-repeat: no-repeat;
             background-size: 100% 100%;
@@ -144,11 +146,13 @@ export default function Eyes() {
               }
             .ldoor {
            
-                background-image: url(https://i.postimg.cc/k5dV0TV2/row-1-column-1-4.png);
+                // background-image: url(https://i.postimg.cc/k5dV0TV2/row-1-column-1-4.png);
+                background-image: url(https://i.postimg.cc/k4mVL6PC/row-1-column-1-4-1.webp;
             }
             .rdoor {
              
-                background-image: url(https://i.postimg.cc/VktrZxNy/row-1-column-2-4.png);
+                // background-image: url(https://i.postimg.cc/VktrZxNy/row-1-column-2-4.png);
+                background-image: url(https://i.postimg.cc/FRVfvrhL/row-1-column-2-4-1.webp);
               }
           }
 

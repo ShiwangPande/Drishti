@@ -796,6 +796,7 @@ ul li a{
         }
 .wrapper {
   background-image: url(https://i.postimg.cc/xCPbmkft/drishti-bgg.png);
+  background-image: url(https://i.postimg.cc/qqBNMP7Z/drishti-bgg-1.webp);
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
@@ -881,7 +882,8 @@ ul li a{
         }
 
 .main_image{
-  background: url(https://i.postimg.cc/xCPbmkft/drishti-bgg.png);
+  // background: url(https://i.postimg.cc/xCPbmkft/drishti-bgg.png);
+  background: url(https://i.postimg.cc/qqBNMP7Z/drishti-bgg-1.webp);
   background-size: cover;
   background-repeat: no-repeat;
   width: 99VW;
