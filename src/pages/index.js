@@ -858,7 +858,8 @@ ul li a{
 
 .about_img{
 //  background-image: url('https://s6.gifyu.com/images/S4Xmu.gif');
- background-image: url('https://i.postimg.cc/Kv632MxV/ezgifcom-optimize-1.gif');
+//  background-image: url('https://i.postimg.cc/Kv632MxV/ezgifcom-optimize-1.gif');
+ background-image: url('https://i.postimg.cc/G90CtYLg/ezgif-com-gif-to-webp.webp');
 }
 .drishti{
   color:white;
