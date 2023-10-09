@@ -123,7 +123,8 @@ export default function Home() {
             </ul>
             {/* <h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1> */}
             {/* <h1 class="logo"> <img src="https://i.postimg.cc/br3wxhCS/white-drishti.png" alt="" /></h1> */}
-            <h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
+            {/* <h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1> */}
+            <h1 class="logo"> <img src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" /></h1>
           </div>
         </nav>
         {/* background: ur(""); */}

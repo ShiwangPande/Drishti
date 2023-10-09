@@ -35,7 +35,8 @@ function Footer() {
 
                 <footer className=" px-10 pt-10 bg-[#0f0f0f;]    ">
                     <div >
-                        <img className='logos' src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" />
+                        {/* <img className='logos' src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /> */}
+                        <img className='logos' src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" />
                         <br />
                     </div>
                     <div className='footer my-5'>
@@ -62,7 +63,7 @@ function Footer() {
 
                             <div className='w-100 gap-5 flex row mx-4 my-4'>
                                 <a href="https://www.instagram.com/mesa_gcoen/">
-                                    <img className='w-100 ' style={{ width: "50px" }} src="https://i.ibb.co/bQjxCzZ/instagram-3.png" alt="" /></a>
+                                    <img className='w-100 ' style={{ width: "50px" }} src="https://i.postimg.cc/8cWTGwRn/instagram-3.webp" alt="" /></a>
                                 <a href="https://www.linkedin.com/in/shiwang-pandey/">
 
                                     <img className='w-100 ' style={{ width: "50px" }} src="https://i.ibb.co/9pwKpng/linkedin-1.png" alt="" />
