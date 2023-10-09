@@ -184,7 +184,7 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible}
@@ -244,14 +244,14 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible1}
                           onClose={closeHandler1}
                         >
                           <div className='event_modal'>
-                            <Image
+                          <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -309,7 +309,7 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible2}
@@ -374,7 +374,7 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
 
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
@@ -382,14 +382,13 @@ export default function Home() {
                           onClose={closeHandler3}
                         >
                           <div className='event_modal'>
-                            {/* <Image
+                          <Image
                               showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
                               height={490}
 
-
-                            /> */}
+                            />
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
@@ -438,7 +437,7 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible4}
@@ -572,7 +571,7 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible6}
@@ -638,7 +637,7 @@ export default function Home() {
                           closeButton
                           // scroll
                           blur
-                          width="800px"
+                          width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible7}
