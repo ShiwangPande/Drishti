@@ -87,7 +87,7 @@ function Footer() {
                  footer{
                     font-family: "Montserrat", sans-serif;
                     font-size: 2rem;
-                    height: 75vh;
+                    height: 100vh;
                     gap: 1rem;
 
                  }
