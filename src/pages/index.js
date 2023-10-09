@@ -212,14 +212,17 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat >
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
-                                    Register  [&#8377;60/-]
+                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
                                   </Button></Link>
-
+                                <Link href=''>
+                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;100]
+                                  </Button></Link>
                               </Modal.Footer>
                             </div>
                           </div>
@@ -269,14 +272,17 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat >
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
-                                    Register [&#8377;60]</Button>
-                                </Link>
-
+                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
+                                  </Button></Link>
+                                <Link href=''>
+                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;100]
+                                  </Button></Link>
                               </Modal.Footer>
                             </div>
                           </div>
@@ -331,15 +337,17 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat>
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
-                                    Register [&#8377;30](solo)
+                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
                                   </Button></Link>
-
-
+                                <Link href=''>
+                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;100]
+                                  </Button></Link>
                               </Modal.Footer>
                             </div>
                           </div>
@@ -459,14 +467,17 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat>
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
+                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
+                                  </Button></Link>
+                                <Link href=''>
+                                  <Button  className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
-
                               </Modal.Footer>
                             </div>
                           </div>
@@ -494,7 +505,7 @@ export default function Home() {
 
                           blur
                           width='80%'
-                          className='lg:w-[80%] w-[800px] '
+                          // className='modals'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
                           open={visible5}
@@ -524,18 +535,17 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat>
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;60]
+                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
-                                    Register (Team) [&#8377;120]
+                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;100]
                                   </Button></Link>
-
                               </Modal.Footer>
                             </div>
                           </div>
@@ -591,12 +601,16 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat>
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
-                                    Register (Team) [&#8377;250]
+                                  <Button className='m-0'  color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
+                                  </Button></Link>
+                                <Link href=''>
+                                  <Button  className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
                             </div>
@@ -653,15 +667,15 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button color="secondary" role="button" auto flat>
+                                <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
+                                  <Button className='m-0'  color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
                                   </Button></Link>
                                 <Link href=''>
-                                  <Button color="secondary" role="button" auto >
+                                  <Button  className='m-0' color="secondary" role="button" auto >
                                     Register (Duo) [&#8377;100]
                                   </Button></Link>
                               </Modal.Footer>
@@ -1072,9 +1086,11 @@ ul li a{
         .button-72:hover {
           background-image: linear-gradient(#B384C9, #391F5B 50%);
         }
-   
+
 
         @media (max-width: 768px){
+      
+     
           .button-72 {
             font-size: 21px;
             padding: 18px 34px;
