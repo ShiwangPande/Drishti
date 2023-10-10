@@ -61,8 +61,8 @@ export default function Eyes() {
             height: 100%;
             position: absolute;
             opacity: 0;
-            animation: drishti_eye 3s alternate forwards ease-in-out;
-            animation-delay: 1s;
+            animation: drishti_eye 2s alternate forwards ease-in-out;
+            animation-delay: 0.5s;
            
         }
         

@@ -365,7 +365,7 @@ function Contactus() {
 						  color: #fff;
 						  opacity: 0.85;
 						  z-index: 100;
-						  animation: navbar 3s ease-in-out;
+						  animation: navbar 2.4s ease-in-out;
 					  }
 			  
 					  @keyframes navbar {

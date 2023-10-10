@@ -142,6 +142,7 @@ export default function Home() {
                   <div className='flex items-center'>
                     <div className="boxer   	">
                       <h3 className=' font-thin text-4xl lg:text-5xl lg:font-medium leading-snug	text-white	  '>
+
                         Welcome to Drishti 2023
                       </h3>
                     </div>
@@ -251,7 +252,7 @@ export default function Home() {
                           onClose={closeHandler1}
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -382,7 +383,7 @@ export default function Home() {
                           onClose={closeHandler3}
                         >
                           <div className='event_modal'>
-                          <Image
+                            <Image
                               showSkeleton
                               src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
                               width={4000}
@@ -992,7 +993,7 @@ ul li a{
             color: #fff;
             opacity: 0.85;
             z-index: 100;
-            animation: navbar 3s ease-in-out;
+            animation: navbar 2.4s ease-in-out;
         }
 
         @keyframes navbar {
@@ -1043,10 +1044,11 @@ ul li a{
         }
         .boxer{
           position: absolute;
+          position: absolute;
           opacity: 0;
           right: 7%;
-          animation: welcome 3s alternate forwards ease-in-out;
-          animation-delay: 1.5s;
+          animation: welcome 1.5s alternate forwards ease-in-out;
+          animation-delay: 0.8s;
         }
 
         @keyframes welcome {
