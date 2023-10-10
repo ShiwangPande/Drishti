@@ -33,7 +33,7 @@ function Team() {
 							<li><a className='btn btn-ghost' href="/Team">Team</a></li>
 							<li><a className='btn btn-ghost' href="/Contactus">Contact Us</a></li>
 						</ul>
-						
+
 						<h1 class="logo"> <img src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" /></h1>
 					</div>
 				</nav>
@@ -139,7 +139,7 @@ function Team() {
 									<div class="honeycomb-cell__title">Anurag Darvatkar <small>Executive Member</small></div>
 								</li>
 								<li class="honeycomb-cell">
-									<img class="honeycomb-cell__image" src="https://i.postimg.cc/1RjkMVHt/22.png" />
+									<img class="honeycomb-cell__image" src="https://i.postimg.cc/Hk4NMR6n/IMG-20230726-170900-834.jpg" />
 									<div class="honeycomb-cell__title">Prajwal Akarte <small>Executive Member</small></div>
 								</li>
 								<li class="honeycomb-cell honeycomb__placeholder"></li>
