@@ -5,6 +5,16 @@ import Img from 'next/image';
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import Footer from './api/components/Footer';
+import cad from './cad.svg';
+import Footer from './api/components/Footer';
+import Eyes from './Eyes';
+import robo from './robo.svg';
+import treasure from './treasure.svg';
+import cnc from './cnc.svg';
+import film from './film.svg';
+import game from './game.svg';
+import ai from './ai.svg';
+import interview from './interview.svg';
 function Event() {
 	const [visible, setVisible] = React.useState(false);
 	const handler = () => setVisible(true);
