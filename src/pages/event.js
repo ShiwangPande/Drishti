@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from "next/link";
+import Img from 'next/image';
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import Footer from './api/components/Footer';
