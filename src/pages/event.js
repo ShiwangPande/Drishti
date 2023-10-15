@@ -92,7 +92,7 @@ function Event() {
 						<li><a className='btn btn-ghost' href="/Contactus">Contact Us</a></li>
 					</ul>
 					<h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1>
-					<h1 class="logo"> <img src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" /></h1>
+					{/* <h1 class="logo"> <img src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" /></h1> */}
 				</div>
 			</nav>
 			<div className='body1'>
