@@ -365,7 +365,7 @@ function Contactus() {
 						  color: #fff;
 						  opacity: 0.85;
 						  z-index: 100;
-						  animation: navbar 2.4s ease-in-out;
+						  animation: navbar 1s ease-in-out;
 					  }
 			  
 					  @keyframes navbar {
@@ -418,8 +418,8 @@ function Contactus() {
 						position: absolute;
 						opacity: 0;
 						right: 7%;
-						animation: welcome 1s alternate forwards ease-in-out;
-						// animation-delay: 1.5s;
+						animation: welcome 3s alternate forwards ease-in-out;
+						animation-delay: 1.5s;
 					  }
 			  
 					  @keyframes welcome {
