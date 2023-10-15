@@ -37,7 +37,7 @@ function Contactus() {
 						<h1 class="logo"> <img src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" /></h1>
 					</div>
 				</nav>
-				<div class="relative flex items-top justify-center min-h-screen bg-gray-900 sm:items-center sm:pt-0">
+				<div class="relative flex items-top justify-center min-h-screen  sm:items-center sm:pt-0">
 					<div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
 						<div class="mt-8 overflow-hidden">
 							<div class="grid grid-cols-1 md:grid-cols-2">
@@ -76,12 +76,12 @@ function Contactus() {
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 										</svg>
 										<div class="ml-4 text-md tracking-wide font-semibold w-40">
-											gcoenmesa@gmail.com
+											drishtimesa@gmail.com
 										</div>
 									</div>
 								</div>
 
-								<form action="https://formsubmit.co/gcoenmesa@gmail.com"
+								<form action="https://formsubmit.co/drishtimesa@gmail.com"
 									method="POST" class="p-6 flex flex-col justify-center ">
 									<div class="flex flex-col">
 										<label for="name" class="hidden">Full Name</label>
