@@ -12,10 +12,9 @@ import { gsap } from "gsap/dist/gsap";
 import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
-import { Grid } from "@nextui-org/react";
+// import { Grid } from "@nextui-org/react";
 import Footer from './api/components/Footer';
 import Eyes from './Eyes';
-
 const inter = Inter({ subsets: ['latin'] });
 
 
@@ -121,9 +120,6 @@ export default function Home() {
               <li><a className='btn btn-ghost' href="/Team">Team</a>    </li>
               <li><a className='btn btn-ghost' href="/Contactus">Contact Us</a>  </li>
             </ul>
-            {/* <h1 class="logo"> <img src="https://see.fontimg.com/api/renderfont4/7BPoE/eyJyIjoiZnMiLCJoIjo4NSwidyI6MTI1MCwiZnMiOjY4LCJmZ2MiOiIjRkRGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/RHJpc2h0aQ/race-guard.png" alt="" /></h1> */}
-            {/* <h1 class="logo"> <img src="https://i.postimg.cc/br3wxhCS/white-drishti.png" alt="" /></h1> */}
-            {/* <h1 class="logo"> <img src="https://i.postimg.cc/52CHR11d/whites-logo.png" alt="" /></h1> */}
             <h1 class="logo"> <img src="https://i.postimg.cc/BZ86NBKF/whites-logo.webp" alt="" /></h1>
           </div>
         </nav>
@@ -194,7 +190,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/Vk5kYv8x/new-cad.png"
                               width={4000}
                               height={490}
 
@@ -232,7 +228,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
                     <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700">Virtual Placements </h1>
@@ -254,7 +250,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/RZ8VqmCN/Virtu-Recruit-Recovered-1.png"
                               width={4000}
                               height={490}
 
@@ -385,7 +381,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/pVYTC3C6/roborace-1-Recovered-21.png"
                               width={4000}
                               height={490}
 
@@ -448,7 +444,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/tCqgMDmC/REVIVE-Recovered-21.png"
                               width={4000}
                               height={490}
 
@@ -516,7 +512,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/RFxSQTHm/tt-post-new-Recovered.png"
                               width={4000}
                               height={490}
 
@@ -557,7 +553,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.postimg.cc/T193PWh6/cnc.png')" }}></div>
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700">Slow Football</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
@@ -582,7 +578,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/T193PWh6/cnc.png"
                               width={4000}
                               height={490}
 
@@ -648,7 +644,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/hP2GWxH8/webiesss.png"
                               width={4000}
                               height={490}
 
@@ -743,6 +739,8 @@ export default function Home() {
         <Footer />
         {/* https://www.linkpicture.com/q/imgbin_robot-gear-mechanical-engineering-mechanism-png.png */}
         <style jsx global > {`
+
+
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Russo+One&display=swap');
          #event{
          font-family: "Montserrat", sans-serif;
