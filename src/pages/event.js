@@ -6,7 +6,6 @@ import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import Footer from './api/components/Footer';
 import cad from './cad.svg';
-import Footer from './api/components/Footer';
 import Eyes from './Eyes';
 import robo from './robo.svg';
 import treasure from './treasure.svg';
