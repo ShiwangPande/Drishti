@@ -418,8 +418,8 @@ function Contactus() {
 						position: absolute;
 						opacity: 0;
 						right: 7%;
-						animation: welcome 3s alternate forwards ease-in-out;
-						animation-delay: 1.5s;
+						animation: welcome 1s alternate forwards ease-in-out;
+						// animation-delay: 1.5s;
 					  }
 			  
 					  @keyframes welcome {
