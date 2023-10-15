@@ -463,7 +463,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Revive</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
                       <Button color="secondary" role="button" onPress={handler4} >
                         Explore
@@ -494,14 +494,14 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  chess
+                                  Revive
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>Step into the world of strategy, intellect, and competition as we present "Grandmasters Clash: The Ultimate Chess Spectacle." This extraordinary chess event promises to be a celebration of the timeless game that has enthralled minds for centuries. Whether you're a seasoned chess aficionado or a novice eager to witness the brilliance of the world's finest chess players, this event is tailored to captivate and inspire.</p>
+                                  <p className='font-semibold'>Step into the world of strategy, intellect, and competition as we present "Grandmasters Clash: The Ultimate Revive Spectacle." This extraordinary Revive event promises to be a celebration of the timeless game that has enthralled minds for centuries. Whether you're a seasoned Revive aficionado or a novice eager to witness the brilliance of the world's finest Revive players, this event is tailored to captivate and inspire.</p>
 
                                 </Text>
                               </Modal.Body>
