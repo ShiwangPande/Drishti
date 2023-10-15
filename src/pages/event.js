@@ -103,7 +103,12 @@ function Event() {
 								<h1 className="text-6xl  mb-20 text-white tracking-wide"> EVENTS </h1>
 								<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] lg:gap-[10rem] aboutt">
 									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={cad}
+												width={200} height={180} quality={100}
+											/>
+										</div>
 										<div className="p-4 card_content">
 											<h1 className="capitalize text-2xl font-bold text-gray-700">Incadibles</h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
@@ -115,7 +120,7 @@ function Event() {
 													closeButton
 													// scroll
 													blur
-													width="800px"
+													width='80%'
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible}
@@ -124,7 +129,7 @@ function Event() {
 													<div className='event_modal'>
 														<Image
 															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															src="https://i.postimg.cc/Vk5kYv8x/new-cad.png"
 															width={4000}
 															height={490}
 
@@ -137,16 +142,20 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3 Nov 2023</h1> <br />
+																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>Step into a world of extraordinary powers, family bonds, and thrilling adventures as we bring you "The Incredibles Event" – an unforgettable celebration of the beloved Pixar superhero family!.</p>
+																	<p className='font-semibold'>“Incadibles” is an exciting event that celebrates the incredible world of
+																		AutoCAD. This event is gathering of enthusiast and anyone passionate about
+																		AutoCAD (computer-aided design).</p>
 
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
+																<Link href='https://drive.google.com/file/d/1CgOAFg4AB-MjIoNPZZKqY-IijXHNub9P/view?usp=sharing'>
+																	<Button className='m-0' color="secondary" role="button" auto flat>
+																		learn more
+																	</Button>
+																</Link>
 																<Link href=''>
 																	<Button className='m-0' color="secondary" role="button" auto >
 																		Register (Single) [&#8377;70]
@@ -162,10 +171,15 @@ function Event() {
 											</div>
 										</div>
 									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={interview}
+												width={200} height={180} quality={100}
+											/>
+										</div>
 										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Virtual Placements </h1>
+											<h1 className="capitalize text-2xl font-bold text-gray-700">VIRTU- RECRUIT </h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
 											<Button color="secondary" role="button" onPress={handler1} >
 												Explore
@@ -175,7 +189,7 @@ function Event() {
 													closeButton
 													// scroll
 													blur
-													width="800px"
+													width='80%'
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible1}
@@ -184,7 +198,7 @@ function Event() {
 													<div className='event_modal'>
 														<Image
 															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															src="https://i.postimg.cc/RZ8VqmCN/Virtu-Recruit-Recovered-1.png"
 															width={4000}
 															height={490}
 
@@ -192,21 +206,26 @@ function Event() {
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
-																	Virtual Placements
+																	VIRTU- RECRUIT
 																</Text>
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3ᵗʰ Nov 2023</h1> <br />
+																	<h1 className='font-bold'>Date: 25ᵗʰ OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>Are you ready to embark on a transformative journey that bridges the gap between education and real-world experience? Welcome to the Virtual Placements Showcase, an innovative event designed to connect students, educators, and employers in a dynamic online environment.</p>
+																	<p className='font-semibold'>An opportunity for students to prepare for the dream placement well in advance. This
+																		will help candidates to self evaluate and boost their confidence to perform their best
+																		on the D-day. The virtual placement will polish your essential communication and
+																		presentation skills required to grab your coveted job.</p>
 
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
+																<Link href='https://drive.google.com/file/d/1AvjhTrOz59yj9v1hMOq8sJykVifmBqzL/view?usp=sharing'>
+																	<Button className='m-0' color="secondary" role="button" auto flat>
+																		learn more
+																	</Button>
+																</Link>
 																<Link href=''>
 																	<Button className='m-0' color="secondary" role="button" auto >
 																		Register (Single) [&#8377;70]
@@ -224,75 +243,85 @@ function Event() {
 
 										</div>
 									</div>
+									{/* <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={ai}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler2} >
+                        Explore
+                      </Button>
+
+
+
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible2}
+                          onClose={closeHandler2}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              width={4000}
+                              height={490}
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Ai workshop
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+
+                                  <p className='font-semibold'>Join us for a transformative experience at our AI Workshop event, where you'll delve into the fascinating world of Artificial Intelligence (AI). Whether you're a beginner or an AI enthusiast looking to expand your knowledge, this workshop is designed to provide you with practical insights, hands-on experience, and a deeper understanding of AI's limitless possibilities.</p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Button className='m-0' color="secondary" role="button" auto flat>
+                                  learn more
+                                </Button>
+                                <Link href=''>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;70]
+                                  </Button></Link>
+                                <Link href=''>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;100]
+                                  </Button></Link>
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div> */}
 									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler2} >
-												Explore
-											</Button>
-
-
-
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width="800px"
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible2}
-													onClose={closeHandler2}
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
-															width={4000}
-															height={490}
-
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	Ai workshop
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
-
-																	<p className='font-semibold'>Join us for a transformative experience at our AI Workshop event, where you'll delve into the fascinating world of Artificial Intelligence (AI). Whether you're a beginner or an AI enthusiast looking to expand your knowledge, this workshop is designed to provide you with practical insights, hands-on experience, and a deeper understanding of AI's limitless possibilities.</p>
-
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
-																	</Button></Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
-																	</Button></Link>
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
-
-											</div>
-
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={robo}
+												width={200} height={180} quality={100}
+											/>
 										</div>
-									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
 										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Robocon Competition</h1>
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Robo Ace</h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
 											<Button color="secondary" role="button" onPress={handler3} >
 												Explore
@@ -305,7 +334,7 @@ function Event() {
 													closeButton
 													// scroll
 													blur
-													width="800px"
+													width='80%'
 
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
@@ -313,25 +342,24 @@ function Event() {
 													onClose={closeHandler3}
 												>
 													<div className='event_modal'>
-														{/* <Image
-                              showSkeleton
-                              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                              width={1000}
-                              height={490}
+														<Image
+															showSkeleton
+															src="https://i.postimg.cc/pVYTC3C6/roborace-1-Recovered-21.png"
+															width={4000}
+															height={490}
 
-
-                            /> */}
+														/>
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
-																	Robocon Competition
+																	Robo Ace
 																</Text>
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>"The Robocon Competition is a thrilling and highly anticipated event that showcases the cutting-edge technology, engineering prowess, and creative innovation of teams from around the world. This annual robotics competition brings together passionate robotics enthusiasts, engineers, and students who design and build robots to compete in a challenging and exciting series of games."</p>
+																	<p className='font-semibold'>Robo Ace is an open robot race event for students. Bots will be provided at the venue, ensuring a level playing field for all participants. Any college or institute can send multiple entries. Join us for this thrilling robotics competition!</p>
 
 																</Text>
 															</Modal.Body>
@@ -354,7 +382,12 @@ function Event() {
 										</div>
 									</div>
 									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={game}
+												width={200} height={180} quality={100}
+											/>
+										</div>
 										<div className="p-4 card_content">
 											<h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
@@ -369,7 +402,7 @@ function Event() {
 													closeButton
 													// scroll
 													blur
-													width="800px"
+													width='80%'
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible4}
@@ -379,7 +412,7 @@ function Event() {
 													<div className='event_modal'>
 														<Image
 															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															src="https://i.postimg.cc/tCqgMDmC/REVIVE-Recovered-21.png"
 															width={4000}
 															height={490}
 
@@ -420,11 +453,16 @@ function Event() {
 										</div>
 									</div>
 									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={treasure}
+												width={200} height={180} quality={100}
+											/>
+										</div>
 										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">treasure hunt</h1>
+											<h1 className="capitalize text-2xl font-bold text-gray-700">Treasure Trackers</h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button class="button-72 text-lg" color="secondary" role="button" onPress={handler5} >
+											<Button color="secondary" role="button" onPress={handler5} >
 												Explore
 											</Button>
 
@@ -447,7 +485,7 @@ function Event() {
 													<div className='event_modal'>
 														<Image
 															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															src="https://i.postimg.cc/RFxSQTHm/tt-post-new-Recovered.png"
 															width={4000}
 															height={490}
 
@@ -455,21 +493,24 @@ function Event() {
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black text-3xl capitalize' size={18}>
-																	treasure hunt
+																	Treasure Trackers
 																</Text>
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>Get ready for an adventure of a lifetime as we invite you to join us for the most exciting and thrilling event of the year - the "X Marks the Spot: Treasure Hunt Extravaganza"! This treasure hunt promises an unforgettable experience that will test your wits, teamwork, and exploration skills while uncovering hidden treasures and solving intriguing mysteries.</p>
+																	<p className='font-semibold'>A Event is about solving the riddle, hunt for the Clues and Overcome all obstacle to unveil the
+																		treasure.</p>
 
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
+																<Link href='https://drive.google.com/file/d/1CfIfiN6qxBA4_YaNrtxBcPgStucEAnIW/view?usp=sharing' >
+																	<Button className='m-0' color="secondary" role="button" auto flat>
+																		learn more
+																	</Button>
+																</Link>
 																<Link href=''>
 																	<Button className='m-0' color="secondary" role="button" auto >
 																		Register (Single) [&#8377;70]
@@ -488,9 +529,14 @@ function Event() {
 										</div>
 									</div>
 									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={cnc}
+												width={200} height={180} quality={100}
+											/>
+										</div>
 										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Slow Football</h1>
+											<h1 className="capitalize text-2xl font-bold text-gray-700">CLEATS N COURT</h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
 											<Button color="secondary" role="button" onPress={handler6} >
 												Explore
@@ -503,7 +549,7 @@ function Event() {
 													closeButton
 													// scroll
 													blur
-													width="800px"
+													width='80%'
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible6}
@@ -513,7 +559,7 @@ function Event() {
 													<div className='event_modal'>
 														<Image
 															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															src="https://i.postimg.cc/T193PWh6/cnc.png"
 															width={4000}
 															height={490}
 
@@ -521,21 +567,24 @@ function Event() {
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
-																	Slow Football
+																	CLEATS N COURT
 																</Text>
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
 																	<h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-																	<p className='font-semibold'>Step onto the pitch and prepare to experience the beautiful game in a whole new light at our "Slo-Mo Soccer Spectacle" event. Slow Football, as we affectionately call it, is an extraordinary twist on the world's most popular sport that will leave you both mesmerized and utterly delighted.</p>
+																	<p className='font-semibold'>CLEATS N COURT is a fast-paced soccer, hard court with teams of five + two players on
+																		each side. The game focuses on skill, quick passes, and close ball control.</p>
 
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
+																<Link href='https://drive.google.com/file/d/135K0f2bmyvoRcWTl_dtKujpMYdVy9LVG/view?usp=sharing'>
+																	<Button className='m-0' color="secondary" role="button" auto flat>
+																		learn more
+																	</Button>
+																</Link>
 																<Link href=''>
 																	<Button className='m-0' color="secondary" role="button" auto >
 																		Register (Single) [&#8377;70]
@@ -554,7 +603,12 @@ function Event() {
 										</div>
 									</div>
 									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+											<Img className='w-[10rem] h-[16rem] m-auto'
+												src={film}
+												width={200} height={180} quality={100}
+											/>
+										</div>
 										<div className="p-4 card_content">
 											<h1 className="capitalize text-2xl font-bold text-gray-700">Webies</h1>
 											<p className="mt-2 text-gray-600 my-7"></p>
@@ -569,7 +623,7 @@ function Event() {
 													closeButton
 													// scroll
 													blur
-													width="800px"
+													width='80%'
 													aria-labelledby="modal-title"
 													aria-describedby="modal-description"
 													open={visible7}
@@ -579,7 +633,7 @@ function Event() {
 													<div className='event_modal'>
 														<Image
 															showSkeleton
-															src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+															src="https://i.postimg.cc/hP2GWxH8/webiesss.png"
 															width={4000}
 															height={490}
 
@@ -592,16 +646,19 @@ function Event() {
 															</Modal.Header>
 															<Modal.Body>
 																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>Webies is an annual celebration of the digital world that brings together the brightest minds, innovators, and enthusiasts from the vast landscape of the internet. This captivating event serves as a nexus where technology, creativity, and the digital community converge to explore, learn, and celebrate the ever-evolving web ecosystem.</p>
+																	<p className='font-semibold'>Webbies is a fun-filled quiz event based on web series. It consists of three rounds:
+																		Level Up, Elimination, and Rapid Fire.</p>
 
 																</Text>
 															</Modal.Body>
 															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
+																<Link href='https://drive.google.com/file/d/1F1-O7eGf9A_7NPyn1PqVArK2dRQQyD6h/view?usp=sharing'>
+																	<Button className='m-0' color="secondary" role="button" auto flat>
+																		learn more
+																	</Button>
+																</Link>
 																<Link href=''>
 																	<Button className='m-0' color="secondary" role="button" auto >
 																		Register (Single) [&#8377;70]
