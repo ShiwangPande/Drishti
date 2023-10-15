@@ -13,8 +13,16 @@ import Link from "next/link";
 import { Card, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 // import { Grid } from "@nextui-org/react";
+import cad from './cad.svg';
 import Footer from './api/components/Footer';
 import Eyes from './Eyes';
+import robo from './robo.svg';
+import treasure from './treasure.svg';
+import cnc from './cnc.svg';
+import film from './film.svg';
+import game from './game.svg';
+import ai from './ai.svg';
+import interview from './interview.svg';
 const inter = Inter({ subsets: ['latin'] });
 
 
@@ -169,7 +177,12 @@ export default function Home() {
                 <h1 className="text-6xl  mb-20 text-white tracking-wide"> EVENTS </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] lg:gap-[10rem] aboutt">
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={cad}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700">Incadibles</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
@@ -203,16 +216,20 @@ export default function Home() {
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3 Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-                                  <p className='font-semibold'>Step into a world of extraordinary powers, family bonds, and thrilling adventures as we bring you "The Incredibles Event" – an unforgettable celebration of the beloved Pixar superhero family!.</p>
+                                  <p className='font-semibold'>“Incadibles” is an exciting event that celebrates the incredible world of
+                                    AutoCAD. This event is gathering of enthusiast and anyone passionate about
+                                    AutoCAD (computer-aided design).</p>
 
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
+                                <Link href='https://drive.google.com/file/d/1CgOAFg4AB-MjIoNPZZKqY-IijXHNub9P/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
                                 <Link href=''>
                                   <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
@@ -229,9 +246,14 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={interview}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Virtual Placements </h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">VIRTU- RECRUIT </h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
                       <Button color="secondary" role="button" onPress={handler1} >
                         Explore
@@ -258,21 +280,26 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Virtual Placements
+                                  VIRTU- RECRUIT
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3ᵗʰ Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25ᵗʰ OCT 2023</h1> <br />
 
-                                  <p className='font-semibold'>Are you ready to embark on a transformative journey that bridges the gap between education and real-world experience? Welcome to the Virtual Placements Showcase, an innovative event designed to connect students, educators, and employers in a dynamic online environment.</p>
+                                  <p className='font-semibold'>An opportunity for students to prepare for the dream placement well in advance. This
+                                    will help candidates to self evaluate and boost their confidence to perform their best
+                                    on the D-day. The virtual placement will polish your essential communication and
+                                    presentation skills required to grab your coveted job.</p>
 
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
+                                <Link href='https://drive.google.com/file/d/1AvjhTrOz59yj9v1hMOq8sJykVifmBqzL/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
                                 <Link href=''>
                                   <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
@@ -290,8 +317,13 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                  {/* <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={ai}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
@@ -354,11 +386,16 @@ export default function Home() {
                       </div>
 
                     </div>
-                  </div>
+                  </div> */}
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={robo}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Robocon Competition</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Robo Ace</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
                       <Button color="secondary" role="button" onPress={handler3} >
                         Explore
@@ -389,14 +426,14 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Robocon Competition
+                                  Robo Ace
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-                                  <p className='font-semibold'>"The Robocon Competition is a thrilling and highly anticipated event that showcases the cutting-edge technology, engineering prowess, and creative innovation of teams from around the world. This annual robotics competition brings together passionate robotics enthusiasts, engineers, and students who design and build robots to compete in a challenging and exciting series of games."</p>
+                                  <p className='font-semibold'>Robo Ace is an open robot race event for students. Bots will be provided at the venue, ensuring a level playing field for all participants. Any college or institute can send multiple entries. Join us for this thrilling robotics competition!</p>
 
                                 </Text>
                               </Modal.Body>
@@ -419,7 +456,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={game}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
@@ -485,11 +527,16 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={treasure}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">treasure hunt</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Treasure Trackers</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
-                      <Button class="button-72 text-lg" color="secondary" role="button" onPress={handler5} >
+                      <Button color="secondary" role="button" onPress={handler5} >
                         Explore
                       </Button>
 
@@ -520,19 +567,20 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black text-3xl capitalize' size={18}>
-                                  treasure hunt
+                                  Treasure Trackers
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-                                  <p className='font-semibold'>Get ready for an adventure of a lifetime as we invite you to join us for the most exciting and thrilling event of the year - the "X Marks the Spot: Treasure Hunt Extravaganza"! This treasure hunt promises an unforgettable experience that will test your wits, teamwork, and exploration skills while uncovering hidden treasures and solving intriguing mysteries.</p>
+                                  <p className='font-semibold'>A Event is about solving the riddle, hunt for the Clues and Overcome all obstacle to unveil the
+                                    treasure.</p>
 
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Link href='https://drive.google.com/file/d/1F1-O7eGf9A_7NPyn1PqVArK2dRQQyD6h/view?usp=sharing' >
+                                <Link href='https://drive.google.com/file/d/1CfIfiN6qxBA4_YaNrtxBcPgStucEAnIW/view?usp=sharing' >
                                   <Button className='m-0' color="secondary" role="button" auto flat>
                                     learn more
                                   </Button>
@@ -555,9 +603,14 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.postimg.cc/T193PWh6/cnc.png')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={cnc}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Slow Football</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">CLEATS N COURT</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
                       <Button color="secondary" role="button" onPress={handler6} >
                         Explore
@@ -588,21 +641,24 @@ export default function Home() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Slow Football
+                                  CLEATS N COURT
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>Step onto the pitch and prepare to experience the beautiful game in a whole new light at our "Slo-Mo Soccer Spectacle" event. Slow Football, as we affectionately call it, is an extraordinary twist on the world's most popular sport that will leave you both mesmerized and utterly delighted.</p>
+                                  <p className='font-semibold'>CLEATS N COURT is a fast-paced soccer, hard court with teams of five + two players on
+                                    each side. The game focuses on skill, quick passes, and close ball control.</p>
 
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
+                                <Link href='https://drive.google.com/file/d/135K0f2bmyvoRcWTl_dtKujpMYdVy9LVG/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
                                 <Link href=''>
                                   <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
@@ -621,7 +677,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4" style={{ backgroundImage: "url('https://i.pinimg.com/564x/09/1f/40/091f403b6ac07c5fc31eeb6fd2a22150.jpg')" }}></div>
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={film}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700">Webies</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
@@ -659,16 +720,19 @@ export default function Home() {
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-                                  <p className='font-semibold'>Webies is an annual celebration of the digital world that brings together the brightest minds, innovators, and enthusiasts from the vast landscape of the internet. This captivating event serves as a nexus where technology, creativity, and the digital community converge to explore, learn, and celebrate the ever-evolving web ecosystem.</p>
+                                  <p className='font-semibold'>Webbies is a fun-filled quiz event based on web series. It consists of three rounds:
+                                    Level Up, Elimination, and Rapid Fire.</p>
 
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
+                                <Link href='https://drive.google.com/file/d/1F1-O7eGf9A_7NPyn1PqVArK2dRQQyD6h/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
                                 <Link href=''>
                                   <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
