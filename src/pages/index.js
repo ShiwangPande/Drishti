@@ -532,9 +532,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
+                                <Link href='https://drive.google.com/file/d/1F1-O7eGf9A_7NPyn1PqVArK2dRQQyD6h/view?usp=sharing' >
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
                                 <Link href=''>
                                   <Button className='m-0' color="secondary" role="button" auto >
                                     Register (Single) [&#8377;70]
