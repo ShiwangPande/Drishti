@@ -494,9 +494,9 @@ export default function Home() {
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>Step into the world of strategy, intellect, and competition as we present "Grandmasters Clash: The Ultimate Chess Spectacle." This extraordinary chess event promises to be a celebration of the timeless game that has enthralled minds for centuries. Whether you're a seasoned chess aficionado or a novice eager to witness the brilliance of the world's finest chess players, this event is tailored to captivate and inspire.</p>
+                                  <p className='font-semibold'>Revive is a dynamic and exciting gaming event that brings together gamers, esports enthusiasts, and chess aficionados in a thrilling competitive environment. Organized by Drishti (the organizing entity), Revive offers a platform for participants to showcase their skills, connect with like-minded individuals, and compete in their favorite games.</p>
 
                                 </Text>
                               </Modal.Body>
