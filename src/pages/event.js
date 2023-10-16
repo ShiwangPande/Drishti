@@ -166,14 +166,11 @@ function Event() {
 																		learn more
 																	</Button>
 																</Link>
-																<Link href=''>
+																<Link href='https://forms.gle/jg1VKCbBefxvUMPP6'>
 																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
+																		Register (Single) [&#8377;69]
 																	</Button></Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
-																	</Button></Link>
+
 															</Modal.Footer>
 														</div>
 													</div>
@@ -236,14 +233,12 @@ function Event() {
 																		learn more
 																	</Button>
 																</Link>
-																<Link href=''>
+																<Link href='https://forms.gle/egHvCdD9xxN5gh8i8'>
 																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
+																		Register (Single) [&#8377;69]
 																	</Button></Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
-																	</Button></Link>
+
+
 															</Modal.Footer>
 														</div>
 													</div>
@@ -377,9 +372,9 @@ function Event() {
 																<Button color="secondary" role="button" auto flat >
 																	learn more
 																</Button>
-																<Link href=''>
+																<Link href='https://forms.gle/33rXMWDNx3ZXRucN6'>
 																	<Button color="secondary" role="button" auto >
-																		Register [&#8377;70]
+																		Register [&#8377;79]
 																	</Button></Link>
 
 															</Modal.Footer>
@@ -430,7 +425,7 @@ function Event() {
 														<div>
 															<Modal.Header>
 																<Text id="modal-title" className='font-black' size={18}>
-																	chess
+																	Revive
 																</Text>
 															</Modal.Header>
 															<Modal.Body>
@@ -445,13 +440,17 @@ function Event() {
 																<Button className='m-0' color="secondary" role="button" auto flat>
 																	learn more
 																</Button>
-																<Link href=''>
+																<Link href='https://forms.gle/JeHn1555Hcyga5u3A'>
 																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
+																		Register (VALORANT - Team of 4) [&#8377;249]
 																	</Button></Link>
-																<Link href=''>
+																<Link href='https://forms.gle/XvqHvgqy1eR2qEYR6'>
 																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
+																		Register (CHESS - Single) [&#8377;49]
+																	</Button></Link>
+																<Link href='https://forms.gle/CEEn1d4JXvh5NptQ6'>
+																	<Button className='m-0' color="secondary" role="button" auto >
+																		Register (BGMI  - Team of 4) [&#8377;239]
 																	</Button></Link>
 															</Modal.Footer>
 														</div>
@@ -521,14 +520,12 @@ function Event() {
 																		learn more
 																	</Button>
 																</Link>
-																<Link href=''>
+																<Link href='https://forms.gle/JpegtV66kwSyFXF99'>
 																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
+																		Register [&#8377;199] (team of 4)
+
 																	</Button></Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
-																	</Button></Link>
+																\
 															</Modal.Footer>
 														</div>
 													</div>
@@ -595,14 +592,11 @@ function Event() {
 																		learn more
 																	</Button>
 																</Link>
-																<Link href=''>
+																<Link href='https://forms.gle/n255UMsJakRDiKhN7'>
 																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
+																		Register (Team of 5 & 2 optional) [&#8377;499]
 																	</Button></Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
-																	</Button></Link>
+
 															</Modal.Footer>
 														</div>
 													</div>

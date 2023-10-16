@@ -230,14 +230,11 @@ export default function Home() {
                                     learn more
                                   </Button>
                                 </Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/jg1VKCbBefxvUMPP6'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                    Register (Single) [&#8377;69]
                                   </Button></Link>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
-                                  </Button></Link>
+
                               </Modal.Footer>
                             </div>
                           </div>
@@ -300,14 +297,12 @@ export default function Home() {
                                     learn more
                                   </Button>
                                 </Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/egHvCdD9xxN5gh8i8'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                    Register (Single) [&#8377;69]
                                   </Button></Link>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
-                                  </Button></Link>
+
+
                               </Modal.Footer>
                             </div>
                           </div>
@@ -441,9 +436,9 @@ export default function Home() {
                                 <Button color="secondary" role="button" auto flat >
                                   learn more
                                 </Button>
-                                <Link href=''>
+                                <Link href='https://forms.gle/33rXMWDNx3ZXRucN6'>
                                   <Button color="secondary" role="button" auto >
-                                    Register [&#8377;70]
+                                    Register [&#8377;79]
                                   </Button></Link>
 
                               </Modal.Footer>
@@ -463,7 +458,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Revive</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
                       <Button color="secondary" role="button" onPress={handler4} >
                         Explore
@@ -501,7 +496,7 @@ export default function Home() {
                                 <Text id="modal-description" >
                                   <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>Step into the world of strategy, intellect, and competition as we present "Grandmasters Clash: The Ultimate Revive Spectacle." This extraordinary Revive event promises to be a celebration of the timeless game that has enthralled minds for centuries. Whether you're a seasoned Revive aficionado or a novice eager to witness the brilliance of the world's finest Revive players, this event is tailored to captivate and inspire.</p>
+                                  <p className='font-semibold'>Step into the world of strategy, intellect, and competition as we present "Grandmasters Clash: The Ultimate Chess Spectacle." This extraordinary chess event promises to be a celebration of the timeless game that has enthralled minds for centuries. Whether you're a seasoned chess aficionado or a novice eager to witness the brilliance of the world's finest chess players, this event is tailored to captivate and inspire.</p>
 
                                 </Text>
                               </Modal.Body>
@@ -509,13 +504,17 @@ export default function Home() {
                                 <Button className='m-0' color="secondary" role="button" auto flat>
                                   learn more
                                 </Button>
-                                <Link href=''>
+                                <Link href='https://forms.gle/JeHn1555Hcyga5u3A'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                    Register (VALORANT - Team of 4) [&#8377;249]
                                   </Button></Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/XvqHvgqy1eR2qEYR6'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
+                                    Register (CHESS - Single) [&#8377;49]
+                                  </Button></Link>
+                                <Link href='https://forms.gle/CEEn1d4JXvh5NptQ6'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (BGMI  - Team of 4) [&#8377;239]
                                   </Button></Link>
                               </Modal.Footer>
                             </div>
@@ -585,14 +584,12 @@ export default function Home() {
                                     learn more
                                   </Button>
                                 </Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/JpegtV66kwSyFXF99'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                    Register [&#8377;199] (team of 4)
+
                                   </Button></Link>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
-                                  </Button></Link>
+                                \
                               </Modal.Footer>
                             </div>
                           </div>
@@ -659,14 +656,11 @@ export default function Home() {
                                     learn more
                                   </Button>
                                 </Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/n255UMsJakRDiKhN7'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                    Register (Team of 5 & 2 optional) [&#8377;499]
                                   </Button></Link>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
-                                  </Button></Link>
+
                               </Modal.Footer>
                             </div>
                           </div>
