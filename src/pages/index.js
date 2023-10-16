@@ -458,7 +458,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Chess</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Revive</h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
                       <Button color="secondary" role="button" onPress={handler4} >
                         Explore
