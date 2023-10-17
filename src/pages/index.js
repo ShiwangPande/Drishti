@@ -1178,7 +1178,7 @@ ul li a{
           position: absolute;
           position: absolute;
           opacity: 0;
-          right: 9%;
+          right: 7%;
           animation: welcome 1.5s alternate forwards ease-in-out;
           animation-delay: 0.8s;
         }
