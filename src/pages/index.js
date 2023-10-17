@@ -94,6 +94,13 @@ export default function Home() {
     setVisible7(false);
     console.log("closed");
   };
+  const [visible8, setVisible8] = React.useState(false);
+  const handler8 = () => setVisible8(true);
+
+  const closeHandler8 = () => {
+    setVisible8(false);
+    console.log("closed");
+  };
 
 
 
@@ -322,7 +329,7 @@ export default function Home() {
                     <div className="p-4 card_content">
                       <h1 className="capitalize text-2xl font-bold text-gray-700"> Web3 and AI workshop </h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
-                      <Button color="secondary" role="button" onPress={handler1} >
+                      <Button color="secondary" role="button" onPress={handler8} >
                         Explore
                       </Button>
                       <div>
@@ -333,8 +340,8 @@ export default function Home() {
                           width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
-                          open={visible1}
-                          onClose={closeHandler1}
+                          open={visible8}
+                          onClose={closeHandler8}
                         >
                           <div className='event_modal'>
                             <Image
@@ -386,76 +393,7 @@ export default function Home() {
 
                     </div>
                   </div>
-                  {/* <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-                      <Img className='w-[10rem] h-[16rem] m-auto'
-                        src={ai}
-                        width={200} height={180} quality={100}
-                      />
-                    </div>
-                    <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
-                      <p className="mt-2 text-gray-600 my-7"></p>
-                      <Button color="secondary" role="button" onPress={handler2} >
-                        Explore
-                      </Button>
-
-
-
-                      <div>
-                        <Modal
-                          closeButton
-                          // scroll
-                          blur
-                          width='80%'
-                          aria-labelledby="modal-title"
-                          aria-describedby="modal-description"
-                          open={visible2}
-                          onClose={closeHandler2}
-                        >
-                          <div className='event_modal'>
-                            <Image
-                              showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
-                              width={4000}
-                              height={490}
-
-                            />
-                            <div>
-                              <Modal.Header>
-                                <Text id="modal-title" className='font-black' size={18}>
-                                  Ai workshop
-                                </Text>
-                              </Modal.Header>
-                              <Modal.Body>
-                                <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
-
-                                  <p className='font-semibold'>Join us for a transformative experience at our AI Workshop event, where you'll delve into the fascinating world of Artificial Intelligence (AI). Whether you're a beginner or an AI enthusiast looking to expand your knowledge, this workshop is designed to provide you with practical insights, hands-on experience, and a deeper understanding of AI's limitless possibilities.</p>
-
-                                </Text>
-                              </Modal.Body>
-                              <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
-                                  </Button></Link>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
-                                  </Button></Link>
-                              </Modal.Footer>
-                            </div>
-                          </div>
-                        </Modal>
-
-                      </div>
-
-                    </div>
-                  </div> */}
+          
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
                     <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
                       <Img className='w-[10rem] h-[16rem] m-auto'
@@ -663,7 +601,7 @@ export default function Home() {
                                     Register [&#8377;199] (team of 4)
 
                                   </Button></Link>
-                                \
+                                
                               </Modal.Footer>
                             </div>
                           </div>
@@ -801,13 +739,13 @@ export default function Home() {
                                     learn more
                                   </Button>
                                 </Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/jPemRaUmBa7xZKCg9'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                    Register (Single) [&#8377;69]
                                   </Button></Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/5GzJRnesGgWjQSRm7'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
+                                    Register (Duo) [&#8377;89]
                                   </Button></Link>
                               </Modal.Footer>
                             </div>
