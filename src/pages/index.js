@@ -10,7 +10,7 @@ import Script from 'next/script'
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap/dist/gsap";
 import Link from "next/link";
-import { Card, Col, Text } from "@nextui-org/react";
+import { Card, Code, Col, Text } from "@nextui-org/react";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 // import { Grid } from "@nextui-org/react";
 import cad from './cad.svg';
@@ -145,8 +145,8 @@ export default function Home() {
                   <Eyes />
                   <div className='flex items-center'>
                     <div className="boxer   	">
-                      <h3 className=' font-thin text-4xl lg:text-5xl lg:font-medium leading-snug	text-white	  '>
-
+                      <h3 className=' font-thin text-4xl lg:text-7xl lg:font-medium leading-snug	text-white	  '>
+                        {/* We Are Live */}
                         Welcome to Drishti 2023
                       </h3>
                     </div>
@@ -203,7 +203,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/Vk5kYv8x/new-cad.png"
+                              src="https://i.postimg.cc/qMXZmyWv/new-cad.png"
                               width={4000}
                               height={490}
 
@@ -269,7 +269,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/RZ8VqmCN/Virtu-Recruit-Recovered-1.png"
+                              src="https://i.postimg.cc/cLFkWZxq/Virtu-Recruit-Recovered-1.png"
                               width={4000}
                               height={490}
 
@@ -288,6 +288,80 @@ export default function Home() {
                                     will help candidates to self evaluate and boost their confidence to perform their best
                                     on the D-day. The virtual placement will polish your essential communication and
                                     presentation skills required to grab your coveted job.</p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/1AvjhTrOz59yj9v1hMOq8sJykVifmBqzL/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/egHvCdD9xxN5gh8i8'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;69]
+                                  </Button></Link>
+
+
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={ai}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700"> Web3 and AI workshop </h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler1} >
+                        Explore
+                      </Button>
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible1}
+                          onClose={closeHandler1}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/kXtpWLvK/AI-worshop-01-1.png"
+                              width={4000}
+                              height={490}
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Web3 + AI Workshop
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25ᵗʰ Nov 2023</h1> <br />
+
+                                  <p className='font-semibold'>Agenda:
+
+                                    Evolution of Internet,
+                                    Web1, Web2, Web3,
+                                    Blockchain, AI, and Tools for Efficiency,
+                                    Free Web3 Learning Platform for Students,
+                                    Career Insights,
+                                    Join Tanmay Tarte for a dynamic workshop on the future of the internet, AI, and Web3 technology, and discover valuable tools and career insights. Plus, exciting giveaways for attendees!</p>
 
                                 </Text>
                               </Modal.Body>
@@ -413,7 +487,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/pVYTC3C6/roborace-1-Recovered-21.png"
+                              src="https://i.postimg.cc/XYSDLxsh/roborace-1-Recovered-21.png"
                               width={4000}
                               height={490}
 
@@ -481,7 +555,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tCqgMDmC/REVIVE-Recovered-21.png"
+                              src="https://i.postimg.cc/xCJ4g7Vw/REVIVE-Recovered-21.png"
                               width={4000}
                               height={490}
 
@@ -558,7 +632,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/RFxSQTHm/tt-post-new-Recovered.png"
+                              src="https://i.postimg.cc/k5D1XZG2/tt-post-new-Recovered.png"
                               width={4000}
                               height={490}
 
@@ -630,7 +704,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/T193PWh6/cnc.png"
+                              src="https://i.postimg.cc/t4qv87Ht/C-N-C-new.png"
                               width={4000}
                               height={490}
 
@@ -701,7 +775,7 @@ export default function Home() {
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/hP2GWxH8/webiesss.png"
+                              src="https://i.postimg.cc/y6RGZwP9/webies.png"
                               width={4000}
                               height={490}
 
@@ -1104,7 +1178,7 @@ ul li a{
           position: absolute;
           position: absolute;
           opacity: 0;
-          right: 7%;
+          right: 9%;
           animation: welcome 1.5s alternate forwards ease-in-out;
           animation-delay: 0.8s;
         }
@@ -1161,6 +1235,7 @@ ul li a{
           }
           .boxer{
             position: absolute;
+            
             opacity: 0;
             animation: welcomee 2s alternate forwards ease-in-out;
             animation-delay: 1.5s;
