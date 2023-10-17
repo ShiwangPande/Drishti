@@ -371,9 +371,9 @@ export default function Home() {
                                     learn more
                                   </Button>
                                 </Link>
-                                <Link href='https://forms.gle/egHvCdD9xxN5gh8i8'>
+                                <Link href='https://forms.gle/wpWcLmHZphfs7kes9'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;69]
+                                    Register (Single) [&#8377;49]
                                   </Button></Link>
 
 
