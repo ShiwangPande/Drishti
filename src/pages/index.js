@@ -145,7 +145,7 @@ export default function Home() {
                   <Eyes />
                   <div className='flex items-center'>
                     <div className="boxer   	">
-                      <h3 className=' font-thin text-4xl lg:text-7xl lg:font-medium leading-snug	text-white	  '>
+                      <h3 className=' font-thin text-4xl lg:text-5xl lg:font-medium leading-snug	text-white	  '>
                         {/* We Are Live */}
                         Welcome to Drishti 2023
                       </h3>
