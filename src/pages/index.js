@@ -145,7 +145,7 @@ export default function Home() {
                   <Eyes />
                   <div className='flex items-center'>
                     <div className="boxer   	">
-                      <h3 className=' font-thin text-4xl lg:text-5xl lg:font-medium leading-snug	text-white	  '>
+                      <h3 className=' font-thin text-4xl lg:text-5xl lg:font-medium drishtifont leading-snug	text-white	  '>
                         {/* We Are Live */}
                         Welcome to Drishti 2023
                       </h3>
@@ -963,6 +963,14 @@ ul li a{
 .glow{
   position: relative;
   top: 100px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(drishti.otf);
+}
+
+.drishtifont {
+  font-family: myFirstFont;
 }
 .glow {
   --glow-color: hsl(248, 16%, 39%);
