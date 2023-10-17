@@ -393,7 +393,7 @@ export default function Home() {
 
                     </div>
                   </div>
-          
+
                   <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
                     <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
                       <Img className='w-[10rem] h-[16rem] m-auto'
@@ -513,9 +513,11 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
+                                <Link href='https://drive.google.com/file/d/1y1v0c-yrnoRNNeUiBZBqdtgbD2BRUW0S/view?usp=sharing' >
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
                                 <Link href='https://forms.gle/JeHn1555Hcyga5u3A'>
                                   <Button className='m-0' color="secondary" role="button" auto >
                                     Register (VALORANT - Team of 4) [&#8377;249]
@@ -601,7 +603,7 @@ export default function Home() {
                                     Register [&#8377;199] (team of 4)
 
                                   </Button></Link>
-                                
+
                               </Modal.Footer>
                             </div>
                           </div>
