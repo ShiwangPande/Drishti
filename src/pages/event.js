@@ -109,146 +109,146 @@ function Event() {
 				<div className="container mx-auto">
 					<div className="flex flex-col items-center justify-center min-h-screen py-2">
 						<main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center mt-32 mb-9">
-							<div className="" id='event'>
-								<h1 className="text-6xl  mb-20 text-white tracking-wide"> EVENTS </h1>
-								<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] lg:gap-[10rem] aboutt">
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={cad}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Incadibles</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler} >
-												Explore
-											</Button>
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width='80%'
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible}
-													onClose={closeHandler}
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/Vk5kYv8x/new-cad.png"
-															width={4000}
-															height={490}
+						<div className="" id='event'>
+                <h1 className="text-6xl  mb-20 text-white tracking-wide"> EVENTS </h1>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] lg:gap-[10rem] aboutt">
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={cad}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Incadibles</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler} >
+                        Explore
+                      </Button>
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible}
+                          onClose={closeHandler}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/qMXZmyWv/new-cad.png"
+                              width={4000}
+                              height={490}
 
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	Incadibles
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Incadibles
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>“Incadibles” is an exciting event that celebrates the incredible world of
-																		AutoCAD. This event is gathering of enthusiast and anyone passionate about
-																		AutoCAD (computer-aided design).</p>
+                                  <p className='font-semibold'>“Incadibles” is an exciting event that celebrates the incredible world of
+                                    AutoCAD. This event is gathering of enthusiast and anyone passionate about
+                                    AutoCAD (computer-aided design).</p>
 
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Link href='https://drive.google.com/file/d/1CgOAFg4AB-MjIoNPZZKqY-IijXHNub9P/view?usp=sharing'>
-																	<Button className='m-0' color="secondary" role="button" auto flat>
-																		learn more
-																	</Button>
-																</Link>
-																<Link href='https://forms.gle/jg1VKCbBefxvUMPP6'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;69]
-																	</Button></Link>
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/1CgOAFg4AB-MjIoNPZZKqY-IijXHNub9P/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/jg1VKCbBefxvUMPP6'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;69]
+                                  </Button></Link>
 
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
-											</div>
-										</div>
-									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={interview}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">VIRTU- RECRUIT </h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler1} >
-												Explore
-											</Button>
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width='80%'
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible1}
-													onClose={closeHandler1}
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/RZ8VqmCN/Virtu-Recruit-Recovered-1.png"
-															width={4000}
-															height={490}
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={interview}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">VIRTU- RECRUIT </h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler1} >
+                        Explore
+                      </Button>
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible1}
+                          onClose={closeHandler1}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/cLFkWZxq/Virtu-Recruit-Recovered-1.png"
+                              width={4000}
+                              height={490}
 
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	VIRTU- RECRUIT
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 25ᵗʰ OCT 2023</h1> <br />
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  VIRTU- RECRUIT
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25ᵗʰ OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>An opportunity for students to prepare for the dream placement well in advance. This
-																		will help candidates to self evaluate and boost their confidence to perform their best
-																		on the D-day. The virtual placement will polish your essential communication and
-																		presentation skills required to grab your coveted job.</p>
+                                  <p className='font-semibold'>An opportunity for students to prepare for the dream placement well in advance. This
+                                    will help candidates to self evaluate and boost their confidence to perform their best
+                                    on the D-day. The virtual placement will polish your essential communication and
+                                    presentation skills required to grab your coveted job.</p>
 
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Link href='https://drive.google.com/file/d/1AvjhTrOz59yj9v1hMOq8sJykVifmBqzL/view?usp=sharing'>
-																	<Button className='m-0' color="secondary" role="button" auto flat>
-																		learn more
-																	</Button>
-																</Link>
-																<Link href='https://forms.gle/egHvCdD9xxN5gh8i8'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;69]
-																	</Button></Link>
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/1AvjhTrOz59yj9v1hMOq8sJykVifmBqzL/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/egHvCdD9xxN5gh8i8'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;69]
+                                  </Button></Link>
 
 
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
 
-											</div>
+                      </div>
 
-										</div>
-									</div>
-									{/* <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem] ">
                     <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
                       <Img className='w-[10rem] h-[16rem] m-auto'
                         src={ai}
@@ -256,9 +256,152 @@ function Event() {
                       />
                     </div>
                     <div className="p-4 card_content">
-                      <h1 className="capitalize text-2xl font-bold text-gray-700">Ai workshop</h1>
+                      <h1 className="capitalize text-2xl font-bold text-gray-700"> Web3 and AI workshop </h1>
                       <p className="mt-2 text-gray-600 my-7"></p>
-                      <Button color="secondary" role="button" onPress={handler2} >
+                      <Button color="secondary" role="button" onPress={handler8} >
+                        Explore
+                      </Button>
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible8}
+                          onClose={closeHandler8}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/kXtpWLvK/AI-worshop-01-1.png"
+                              width={4000}
+                              height={490}
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Web3 + AI Workshop
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25ᵗʰ Nov 2023</h1> <br />
+
+                                  <p className='font-semibold'>Agenda:
+
+                                    Evolution of Internet,
+                                    Web1, Web2, Web3,
+                                    Blockchain, AI, and Tools for Efficiency,
+                                    Free Web3 Learning Platform for Students,
+                                    Career Insights,
+                                    Join Tanmay Tarte for a dynamic workshop on the future of the internet, AI, and Web3 technology, and discover valuable tools and career insights. Plus, exciting giveaways for attendees!</p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/1G4oDg0ULLC98VyxQ06bnVUQmK4FTJZs-/view?usp=drivesdk'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/wpWcLmHZphfs7kes9'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;49]
+                                  </Button></Link>
+
+
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={robo}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Robo Ace</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler3} >
+                        Explore
+                      </Button>
+
+
+
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible3}
+                          onClose={closeHandler3}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/XYSDLxsh/roborace-1-Recovered-21.png"
+                              width={4000}
+                              height={490}
+
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Robo Ace
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
+
+                                  <p className='font-semibold'>Robo Ace is an open robot race event for students. Bots will be provided at the venue, ensuring a level playing field for all participants. Any college or institute can send multiple entries. Join us for this thrilling robotics competition!</p>
+
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Button color="secondary" role="button" auto flat >
+                                  learn more
+                                </Button>
+                                <Link href='https://forms.gle/33rXMWDNx3ZXRucN6'>
+                                  <Button color="secondary" role="button" auto >
+                                    Register [&#8377;79]
+                                  </Button></Link>
+
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={game}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Revive</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler4} >
                         Explore
                       </Button>
 
@@ -272,13 +415,14 @@ function Event() {
                           width='80%'
                           aria-labelledby="modal-title"
                           aria-describedby="modal-description"
-                          open={visible2}
-                          onClose={closeHandler2}
+                          open={visible4}
+                          onClose={closeHandler4}
+
                         >
                           <div className='event_modal'>
                             <Image
                               showSkeleton
-                              src="https://i.postimg.cc/tTYPN2Y7/football.jpg"
+                              src="https://i.postimg.cc/xCJ4g7Vw/REVIVE-Recovered-21.png"
                               width={4000}
                               height={490}
 
@@ -286,28 +430,34 @@ function Event() {
                             <div>
                               <Modal.Header>
                                 <Text id="modal-title" className='font-black' size={18}>
-                                  Ai workshop
+                                  Revive
                                 </Text>
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th Nov 2023</h1> <br />
 
-                                  <p className='font-semibold'>Join us for a transformative experience at our AI Workshop event, where you'll delve into the fascinating world of Artificial Intelligence (AI). Whether you're a beginner or an AI enthusiast looking to expand your knowledge, this workshop is designed to provide you with practical insights, hands-on experience, and a deeper understanding of AI's limitless possibilities.</p>
+                                  <p className='font-semibold'>Revive is a dynamic and exciting gaming event that brings together gamers, esports enthusiasts, and chess aficionados in a thrilling competitive environment. Organized by Drishti (the organizing entity), Revive offers a platform for participants to showcase their skills, connect with like-minded individuals, and compete in their favorite games.</p>
 
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Button className='m-0' color="secondary" role="button" auto flat>
-                                  learn more
-                                </Button>
-                                <Link href=''>
-                                  <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Single) [&#8377;70]
+                                <Link href='https://drive.google.com/file/d/1y1v0c-yrnoRNNeUiBZBqdtgbD2BRUW0S/view?usp=sharing' >
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/JeHn1555Hcyga5u3A'>
+                                  <Button className='m-0 ' color="secondary" role="button" auto style={{ fontSize: "small" }}>
+                                    Register (VALORANT - Team of 4) [&#8377;249]
                                   </Button></Link>
-                                <Link href=''>
+                                <Link href='https://forms.gle/XvqHvgqy1eR2qEYR6'>
                                   <Button className='m-0' color="secondary" role="button" auto >
-                                    Register (Duo) [&#8377;100]
+                                    Register (CHESS - Single) [&#8377;49]
+                                  </Button></Link>
+                                <Link href='https://forms.gle/CEEn1d4JXvh5NptQ6'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (BGMI  - Team of 4) [&#8377;239]
                                   </Button></Link>
                               </Modal.Footer>
                             </div>
@@ -317,371 +467,228 @@ function Event() {
                       </div>
 
                     </div>
-                  </div> */}
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={robo}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Robo Ace</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler3} >
-												Explore
-											</Button>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={treasure}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Treasure Trackers</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler5} >
+                        Explore
+                      </Button>
 
 
 
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width='80%'
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
 
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible3}
-													onClose={closeHandler3}
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/pVYTC3C6/roborace-1-Recovered-21.png"
-															width={4000}
-															height={490}
+                          blur
+                          width='80%'
+                          // className='modals'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible5}
+                          onClose={closeHandler5}
 
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	Robo Ace
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/k5D1XZG2/tt-post-new-Recovered.png"
+                              width={4000}
+                              height={490}
 
-																	<p className='font-semibold'>Robo Ace is an open robot race event for students. Bots will be provided at the venue, ensuring a level playing field for all participants. Any college or institute can send multiple entries. Join us for this thrilling robotics competition!</p>
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black text-3xl capitalize' size={18}>
+                                  Treasure Trackers
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Button color="secondary" role="button" auto flat >
-																	learn more
-																</Button>
-																<Link href='https://forms.gle/33rXMWDNx3ZXRucN6'>
-																	<Button color="secondary" role="button" auto >
-																		Register [&#8377;79]
-																	</Button></Link>
+                                  <p className='font-semibold'>A Event is about solving the riddle, hunt for the Clues and Overcome all obstacle to unveil the
+                                    treasure.</p>
 
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/1CfIfiN6qxBA4_YaNrtxBcPgStucEAnIW/view?usp=sharing' >
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/JpegtV66kwSyFXF99'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register [&#8377;199] (team of 4)
 
-											</div>
+                                  </Button></Link>
 
-										</div>
-									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={game}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Revive</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler4} >
-												Explore
-											</Button>
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
 
+                      </div>
 
-
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width='80%'
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible4}
-													onClose={closeHandler4}
-
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/tCqgMDmC/REVIVE-Recovered-21.png"
-															width={4000}
-															height={490}
-
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	Revive
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 25th Nov 2023</h1> <br />
-
-																	<p className='font-semibold'>Revive is a dynamic and exciting gaming event that brings together gamers, esports enthusiasts, and chess aficionados in a thrilling competitive environment. Organized by Drishti (the organizing entity), Revive offers a platform for participants to showcase their skills, connect with like-minded individuals, and compete in their favorite games.</p>
-
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Button className='m-0' color="secondary" role="button" auto flat>
-																	learn more
-																</Button>
-																<Link href='https://forms.gle/JeHn1555Hcyga5u3A'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (VALORANT - Team of 4) [&#8377;249]
-																	</Button></Link>
-																<Link href='https://forms.gle/XvqHvgqy1eR2qEYR6'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (CHESS - Single) [&#8377;49]
-																	</Button></Link>
-																<Link href='https://forms.gle/CEEn1d4JXvh5NptQ6'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (BGMI  - Team of 4) [&#8377;239]
-																	</Button></Link>
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
-
-											</div>
-
-										</div>
-									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={treasure}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Treasure Trackers</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler5} >
-												Explore
-											</Button>
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={cnc}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">CLEATS N COURT</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler6} >
+                        Explore
+                      </Button>
 
 
 
-											<div>
-												<Modal
-													closeButton
-													// scroll
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible6}
+                          onClose={closeHandler6}
 
-													blur
-													width='80%'
-													// className='modals'
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible5}
-													onClose={closeHandler5}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/t4qv87Ht/C-N-C-new.png"
+                              width={4000}
+                              height={490}
 
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/RFxSQTHm/tt-post-new-Recovered.png"
-															width={4000}
-															height={490}
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  CLEATS N COURT
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
 
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black text-3xl capitalize' size={18}>
-																	Treasure Trackers
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
+                                  <p className='font-semibold'>CLEATS N COURT is a fast-paced soccer, hard court with teams of five + two players on
+                                    each side. The game focuses on skill, quick passes, and close ball control.</p>
 
-																	<p className='font-semibold'>A Event is about solving the riddle, hunt for the Clues and Overcome all obstacle to unveil the
-																		treasure.</p>
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/135K0f2bmyvoRcWTl_dtKujpMYdVy9LVG/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/n255UMsJakRDiKhN7'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Team of 5 & 2 optional) [&#8377;499]
+                                  </Button></Link>
 
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Link href='https://drive.google.com/file/d/1CfIfiN6qxBA4_YaNrtxBcPgStucEAnIW/view?usp=sharing' >
-																	<Button className='m-0' color="secondary" role="button" auto flat>
-																		learn more
-																	</Button>
-																</Link>
-																<Link href='https://forms.gle/JpegtV66kwSyFXF99'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register [&#8377;199] (team of 4)
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
 
-																	</Button></Link>
-																\
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
+                      </div>
 
-											</div>
-
-										</div>
-									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={cnc}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">CLEATS N COURT</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler6} >
-												Explore
-											</Button>
+                    </div>
+                  </div>
+                  <div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
+                    <div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
+                      <Img className='w-[10rem] h-[16rem] m-auto'
+                        src={film}
+                        width={200} height={180} quality={100}
+                      />
+                    </div>
+                    <div className="p-4 card_content">
+                      <h1 className="capitalize text-2xl font-bold text-gray-700">Webies</h1>
+                      <p className="mt-2 text-gray-600 my-7"></p>
+                      <Button color="secondary" role="button" onPress={handler7} >
+                        Explore
+                      </Button>
 
 
 
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width='80%'
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible6}
-													onClose={closeHandler6}
+                      <div>
+                        <Modal
+                          closeButton
+                          // scroll
+                          blur
+                          width='80%'
+                          aria-labelledby="modal-title"
+                          aria-describedby="modal-description"
+                          open={visible7}
+                          onClose={closeHandler7}
 
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/T193PWh6/cnc.png"
-															width={4000}
-															height={490}
+                        >
+                          <div className='event_modal'>
+                            <Image
+                              showSkeleton
+                              src="https://i.postimg.cc/y6RGZwP9/webies.png"
+                              width={4000}
+                              height={490}
 
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	CLEATS N COURT
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 3rd Nov 2023</h1> <br />
+                            />
+                            <div>
+                              <Modal.Header>
+                                <Text id="modal-title" className='font-black' size={18}>
+                                  Webies
+                                </Text>
+                              </Modal.Header>
+                              <Modal.Body>
+                                <Text id="modal-description" >
+                                  <h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
 
-																	<p className='font-semibold'>CLEATS N COURT is a fast-paced soccer, hard court with teams of five + two players on
-																		each side. The game focuses on skill, quick passes, and close ball control.</p>
+                                  <p className='font-semibold'>Webbies is a fun-filled quiz event based on web series. It consists of three rounds:
+                                    Level Up, Elimination, and Rapid Fire.</p>
 
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Link href='https://drive.google.com/file/d/135K0f2bmyvoRcWTl_dtKujpMYdVy9LVG/view?usp=sharing'>
-																	<Button className='m-0' color="secondary" role="button" auto flat>
-																		learn more
-																	</Button>
-																</Link>
-																<Link href='https://forms.gle/n255UMsJakRDiKhN7'>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Team of 5 & 2 optional) [&#8377;499]
-																	</Button></Link>
+                                </Text>
+                              </Modal.Body>
+                              <Modal.Footer className='mt-10 mr-5'>
+                                <Link href='https://drive.google.com/file/d/1F1-O7eGf9A_7NPyn1PqVArK2dRQQyD6h/view?usp=sharing'>
+                                  <Button className='m-0' color="secondary" role="button" auto flat>
+                                    learn more
+                                  </Button>
+                                </Link>
+                                <Link href='https://forms.gle/jPemRaUmBa7xZKCg9'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Single) [&#8377;69]
+                                  </Button></Link>
+                                <Link href='https://forms.gle/5GzJRnesGgWjQSRm7'>
+                                  <Button className='m-0' color="secondary" role="button" auto >
+                                    Register (Duo) [&#8377;89]
+                                  </Button></Link>
+                              </Modal.Footer>
+                            </div>
+                          </div>
+                        </Modal>
 
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
+                      </div>
 
-											</div>
-
-										</div>
-									</div>
-									<div className="bg-white shadow-md rounded-lg overflow-hidden w-[19rem]">
-										<div className="bg-cover h-[18rem] p-4 " style={{ backgroundImage: "url('https://i.postimg.cc/J42bwG5N/low-poly-grid-haikei.png')" }}>
-											<Img className='w-[10rem] h-[16rem] m-auto'
-												src={film}
-												width={200} height={180} quality={100}
-											/>
-										</div>
-										<div className="p-4 card_content">
-											<h1 className="capitalize text-2xl font-bold text-gray-700">Webies</h1>
-											<p className="mt-2 text-gray-600 my-7"></p>
-											<Button color="secondary" role="button" onPress={handler7} >
-												Explore
-											</Button>
-
-
-
-											<div>
-												<Modal
-													closeButton
-													// scroll
-													blur
-													width='80%'
-													aria-labelledby="modal-title"
-													aria-describedby="modal-description"
-													open={visible7}
-													onClose={closeHandler7}
-
-												>
-													<div className='event_modal'>
-														<Image
-															showSkeleton
-															src="https://i.postimg.cc/hP2GWxH8/webiesss.png"
-															width={4000}
-															height={490}
-
-														/>
-														<div>
-															<Modal.Header>
-																<Text id="modal-title" className='font-black' size={18}>
-																	Webies
-																</Text>
-															</Modal.Header>
-															<Modal.Body>
-																<Text id="modal-description" >
-																	<h1 className='font-bold'>Date: 25th OCT 2023</h1> <br />
-
-																	<p className='font-semibold'>Webbies is a fun-filled quiz event based on web series. It consists of three rounds:
-																		Level Up, Elimination, and Rapid Fire.</p>
-
-																</Text>
-															</Modal.Body>
-															<Modal.Footer className='mt-10 mr-5'>
-																<Link href='https://drive.google.com/file/d/1F1-O7eGf9A_7NPyn1PqVArK2dRQQyD6h/view?usp=sharing'>
-																	<Button className='m-0' color="secondary" role="button" auto flat>
-																		learn more
-																	</Button>
-																</Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Single) [&#8377;70]
-																	</Button></Link>
-																<Link href=''>
-																	<Button className='m-0' color="secondary" role="button" auto >
-																		Register (Duo) [&#8377;100]
-																	</Button></Link>
-															</Modal.Footer>
-														</div>
-													</div>
-												</Modal>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-							</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 						</main>
 					</div>
 				</div>

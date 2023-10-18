@@ -519,7 +519,7 @@ export default function Home() {
                                   </Button>
                                 </Link>
                                 <Link href='https://forms.gle/JeHn1555Hcyga5u3A'>
-                                  <Button className='m-0' color="secondary" role="button" auto >
+                                  <Button className='m-0 ' color="secondary" role="button" auto style={{ fontSize: "small" }}>
                                     Register (VALORANT - Team of 4) [&#8377;249]
                                   </Button></Link>
                                 <Link href='https://forms.gle/XvqHvgqy1eR2qEYR6'>
