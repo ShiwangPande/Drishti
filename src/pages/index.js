@@ -151,7 +151,7 @@ export default function Home() {
 
                   <Eyes />
                   <div className='flex items-center'>
-                    <div className="boxer   	">
+                    <div className="boxer">
                       <h3 className=' text-4xl lg:text-5xl lg:font-medium drishtifont leading-snug	text-white	  '>
                         {/* We Are Live */}
                         Welcome to Drishti 2023
@@ -373,7 +373,7 @@ export default function Home() {
                                 </Text>
                               </Modal.Body>
                               <Modal.Footer className='mt-10 mr-5'>
-                                <Link href='https://drive.google.com/file/d/1AvjhTrOz59yj9v1hMOq8sJykVifmBqzL/view?usp=sharing'>
+                                <Link href='https://drive.google.com/file/d/1G4oDg0ULLC98VyxQ06bnVUQmK4FTJZs-/view?usp=drivesdk'>
                                   <Button className='m-0' color="secondary" role="button" auto flat>
                                     learn more
                                   </Button>
