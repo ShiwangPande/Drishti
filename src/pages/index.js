@@ -506,7 +506,7 @@ export default function Home() {
                               </Modal.Header>
                               <Modal.Body>
                                 <Text id="modal-description" >
-                                  <h1 className='font-bold'>Date: 25th Nov 2023</h1> <br />
+                                  <h1 className='font-bold'>Date: 25th Oct 2023</h1> <br />
 
                                   <p className='font-semibold'>Revive is a dynamic and exciting gaming event that brings together gamers, esports enthusiasts, and chess aficionados in a thrilling competitive environment. Organized by Drishti (the organizing entity), Revive offers a platform for participants to showcase their skills, connect with like-minded individuals, and compete in their favorite games.</p>
 
