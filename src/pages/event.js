@@ -72,7 +72,13 @@ function Event() {
 		console.log("closed");
 	};
 
-
+  const [visible8, setVisible8] = React.useState(false); 
+   const handler8 = () => setVisible8(true); 
+  
+   const closeHandler8 = () => { 
+     setVisible8(false); 
+     console.log("closed"); 
+   };
 
 	return (
 		<div>
